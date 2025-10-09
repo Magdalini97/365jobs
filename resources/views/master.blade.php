@@ -4,7 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @vite(['resources/css/app.css', 'resources/css/mobile.css','resources/js/app.js'])
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -17,6 +21,7 @@
                     <a href="http://127.0.0.1:8000/positions" title="Positions">Positions</a>
                     <a href="http://127.0.0.1:8000/services" title="Services">Services</a>
                     <a href="http://127.0.0.1:8000/aboutus" title="About us">About us</a>
+                    <a href="http://127.0.0.1:8000/blog" title="News">News</a>
                     <a href="http://127.0.0.1:8000/contact" title="Contact">Contact</a>
                     <button id="icon">
                         <span></span>
@@ -79,6 +84,7 @@
             <div class="copyright">
                 <p>Copyright &copy; 2024 365jobs <span>Created with <favicon style="color:rgb(163, 42, 42);">♥</favicon>
                 by Darkpony</span></p>
+                <img src="/_365jobs/images/Group54.svg" alt="logo">
             </div>
         </div>
     </footer>

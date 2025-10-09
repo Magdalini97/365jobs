@@ -7,7 +7,7 @@
 
             <div class="container">
                 <div class="row">
-                    <div class="col-xm-6">
+                    <div class="col-xm-3">
                         <div class="paragraph">
                             <h1>Let's build your team <span>together</span></h1>
                             <p>Our aim is to make the job market accessible to everyone,
@@ -23,6 +23,9 @@
                                 <a href="#" title="em" class="ctab can">I am a candidate</a>
                             </div>
                         </div>
+                        <div class="background">
+                            <img src="/_365jobs/images/stock-photo.png" alt="png">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -30,7 +33,6 @@
 
 
         <div class="hena">
-
 
             <div class="position">
                 <div class="pos">
@@ -53,8 +55,7 @@
                             <div class="swiper-slide">
                                 <div class="category">
                                     <a href="#" title="carta" class="carta">
-                                        <div class="positions"><img src="/_365jobs/images/fishing.jpg" alt="fishing" width="338px"
-                                            height="475px"></div>
+                                        <div class="positions"><img src="/_365jobs/images/fishing.jpg" alt="fishing"></div>
                                         <div class="overlay"></div>
                                         <div class="slide-label">
                                             <p>Fishing</p>
@@ -64,7 +65,6 @@
                                         </div>
                                     </a>
                                 </div>
-
 
 
                                 <a href="#" title="hoverli" class="hoverli">
@@ -84,8 +84,7 @@
                             <div class="swiper-slide">
                                 <div class="category">
                                     <a href="#" title="carta" class="carta">
-                                    <div class="positions"><img src="/_365jobs/images/workers.png" alt="fishing" width="338px"
-                                            height="475px"></div>
+                                        <div class="positions"><img src="/_365jobs/images/workers.png" alt="fishing"></div>
                                         <div class="overlay"></div>
                                         <div class="slide-label">
                                             <p>Construction</p>
@@ -115,8 +114,7 @@
 
                                 <div class="category">
                                     <a href="#" title="carta" class="carta">
-                                        <div class="positions"><img src="/_365jobs/images/gardener.jpg" alt="fishing" width="338px"
-                                            height="475px"></div>
+                                        <div class="positions"><img src="/_365jobs/images/gardener.jpg" alt="fishing"></div>
                                         <div class="overlay"></div>
                                         <div class="slide-label">
                                             <p>Tourism</p>
@@ -144,8 +142,7 @@
 
                                 <div class="category">
                                     <a href="#" title="carta" class="carta">
-                                        <div class="positions"><img src="/_365jobs/images/chef.jpg" alt="fishing" width="338px"
-                                            height="475px"></div>
+                                        <div class="positions"><img src="/_365jobs/images/chef.jpg" alt="fishing"></div>
                                         <div class="overlay"></div>
                                         <div class="slide-label">
                                             <p>Food service</p>
@@ -176,8 +173,7 @@
 
                                 <div class="category">
                                     <a href="#" title="carta" class="carta">
-                                    <div class="positions"><img src="/_365jobs/images/fishing.jpg" alt="fishing" width="338px"
-                                            height="475px"></div>
+                                        <div class="positions"><img src="/_365jobs/images/fishing.jpg" alt="fishing"></div>
                                         <div class="overlay"></div>
                                         <div class="slide-label">
                                             <p>Fishing</p>
@@ -208,9 +204,9 @@
                     </div>
                 </div>
             </div>
-            <div class="b-all">
-                <button type="button" class="ctab all">All categories</button>
-            </div>
+            <a href="http://127.0.0.1:8000/categorypage" class="b-all">
+                <button type="button" class="all">All categories</button>
+            </a>
         </div>
 
 
@@ -227,8 +223,8 @@
 
                     <div class="col-sm-6">
                         <div class="aboutus">
-                            <a href="#" title="About us">About us</a>
-                            <h1>We connect businesses and <span>job seekers</span></h1>
+                            <a href="http://127.0.0.1:8000/aboutus" title="About us">About us</a>
+                            <h2>We connect businesses and</h2><span>job seekers</span>
                             <p>365 jobs provides a flexible solution for businesses looking to recruit
                                 personnel for a season and long term. Our experience in recruiting from non-EU
                                 countries combined with our unique resources - makes us your ideal partner
@@ -239,7 +235,7 @@
                             <p>Our company is based in Thessaloniki and works with partner offices in India,
                                 Bangladesh and Pakistan, enabling people to connect with Greek businesses for
                                 employment.</p>
-                            <button type="button" class="ctab about">About us</button>
+                            <a href="#" class="btn-about">About us</a>
                         </div>
                     </div>
                 </div>
@@ -253,13 +249,13 @@
                 <div class="row">
                     <div class="col">
                         <div class="but">
-                            <a href="#" title="services">Services</a>
+                            <a href="http://127.0.0.1:8000/services" title="services">Services</a>
                         </div>
 
                         <div class="services">
                             <div class="bar">
-                                <button type="button" class="active one">Recruitment solutions</button>
-                                <button type="button" class="active two">Support in the recruitment process of non-EU
+                                <button type="button" class="active one">Recruitment<br> solutions</button>
+                                <button type="button" class="active two">Support in the recruitment<br> process of non-EU
                                     nationals</button>
                             </div>
 
@@ -291,9 +287,10 @@
                                             <a href="#" class="recruitment">Recruitment solutions</a>
                                             <p>We offer tailored workforce solutions for your business in different sectors
                                                 to create a strong match between your business requirements and the
-                                                candidates&#39;
-                                                know-how and expertise.</p>
-                                            <button type="button" class="ctab view">View more</button>
+                                                candidates &#39; know-how and expertise.</p>
+                                            <div class="close-view">
+                                                <button type="button" class="view-more">View more</button>
+                                            </div>
                                         </div>
 
                                         <div class="recru">
@@ -316,7 +313,9 @@
                                                 are just some of the many obstacles that jobseekers face. We help candidates
                                                 obtain the necessary
                                                 permit and businesses to place the candidates.</p>
-                                            <button type="button" class="ctab view">View more</button>
+                                            <div class="close-view">
+                                                <button type="button" class="view-more">View more</button>
+                                            </div>
                                         </div>
 
                                         <div class="recru1">
@@ -335,74 +334,79 @@
                 </div>
 
             </div>
-        </div>/*
+        </div>
 
 
         <div class="htessera">
             <div class="news">
-                <a href="#" title=new>News & HR Hub</a>
-                <h1>Expand your HR knowledge</h1>
+                <a href="#" title=new class="news">News & HR Hub</a>
+                <h3>Expand your HR knowledge</h3>
 
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-10">
 
 
-                            <div class="how">
+                            <a href="#" title="how" class="how">
                                 <hr>
                                 <div class="dio">
-                                    <a href="#" title="h2">How Employees and Employers Can Thrive With a
+                                    <h4> Employees and Employers Can Thrive With a
                                         4-Day Workweek
-                                    </a>
+                                    </h4>
 
-                                    <a href="#" title="div" class="velos">
-                                        <div class="belos">></div>
-                                    </a>
+                                    <div class="velos">
+                                        <div class="belos"><img src="/_365jobs/images/vel.png" alt="svg"></div>
+                                        <div class="symbol"><img src="/_365jobs/images/velaspro.png" alt="svg"></div>
+                                    </div>
                                 </div>
                                 <p>01 Mar 2024</p>
-                            </div>
+                            </a>
 
-                            <div class="how">
+                            <a href="#" title="how" class="how">
                                 <div class="dio">
-                                    <a href="#" title="h2">How Employees and Employers Can Thrive With a
+                                    <h4> Employees and Employers Can Thrive With a
                                         4-Day Workweek
-                                    </a>
+                                    </h4>
 
-                                    <a href="#" title="div" class="velos">
-                                        <div class="belos">></div>
-                                    </a>
+                                    <div class="velos">
+                                        <div class="belos"><img src="/_365jobs/images/vel.png" alt="svg"></div>
+                                        <div class="symbol"><img src="/_365jobs/images/velaspro.png" alt="svg"></div>
+                                    </div>
                                 </div>
                                 <p>01 Mar 2024</p>
-                            </div>
+                            </a>
 
-                            <div class="how">
+                            <a href="#" title="how" class="how">
                                 <div class="dio">
-                                    <a href="#" title="h2">How Employees and Employers Can Thrive With a
+                                    <h4> Employees and Employers Can Thrive With a
                                         4-Day Workweek
-                                    </a>
+                                    </h4>
 
-                                    <a href="#" title="div" class="velos">
-                                        <div class="belos">></div>
-                                    </a>
+                                    <div class="velos">
+                                        <div class="belos"><img src="/_365jobs/images/vel.png" alt="svg"></div>
+                                        <div class="symbol"><img src="/_365jobs/images/velaspro.png" alt="svg"></div>
+                                    </div>
                                 </div>
                                 <p>01 Mar 2024</p>
-                            </div>
+                            </a>
 
-                            <div class="how">
+                            <a href="#" title="how" class="how">
                                 <div class="dio">
-                                    <a href="#" title="h2">How Employees and Employers Can Thrive With a
+                                    <h4> Employees and Employers Can Thrive With a
                                         4-Day Workweek
-                                    </a>
+                                    </h4>
 
-                                    <a href="#" title="div" class="velos">
-                                        <div class="belos">></div>
-                                    </a>
+                                    <div class="velos">
+                                        <div class="belos"><img src="/_365jobs/images/vel.png" alt="svg"></div>
+                                        <div class="symbol"><img src="/_365jobs/images/velaspro.png" alt="svg"></div>
+                                    </div>
                                 </div>
-
                                 <p>01 Mar 2024</p>
+                            </a>
+                            <div class="close-news">
+                                <button class="all-news">All news</button>
                             </div>
                         </div>
-                        <a href="#" title="all" class="ctab all">All news</a>
                     </div>
                 </div>
             </div>
@@ -417,7 +421,9 @@
                             <p>If you are a third-country national interested in working
                                 in Greece or a student looking <br> to do your internship in Greece,
                                 send us your CV, and we will contact you directly.</p>
-                            <a href="#" class="ctab getstarted" title="getstarted">Get started</a>
+                            <div class="get-started">
+                                <button class="getstarted" title="getstarted">Get started</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -429,43 +435,39 @@
             <div class="contact" style="background-color: #E2DFFE;">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 col-md-6">
+                        <div class="col-5 col-md-6">
                             <div class="leftcon">
                                 <a href="#" title="contact">Contact us</a>
-                                <h1>Let’s build your team <span>together</span></h1>
+                                <h2>Let’s build your team <span>together</span></h2>
                                 <p>Are you stuck and need help?
                                 Then connect with us by filling in your details
-                                and we at 365jobs will do our best to support you.</p>
+                                and we at 365jobs will do our best to support you as sson as possible.</p>
                             </div>
                         </div>
 
-                        <div class="col-12 col-md-6">
+                        <div class="col-6 col-md-6"  >
                             <div class="form-container">
                                 <form>
-                                    <div class="row">
-                                        <div class="input-wrapper col-12 col-md-6">
+                                    <div class="row-name">
+                                        <div class="input-wrapper">
                                             <label for="firstname" class="firstname">First Name<sup>*</sup></label>
                                             <input type="text" class="form-control" id="firstname" placeholder="First Name">
                                         </div>
 
-                                        <div class="input-wrapper col-12 col-md-6">
+                                        <div class="input-wrapper">
                                             <label for="lastname" class="lastname">Last Name<sup>*</sup></label>
                                             <input type="text" class="form-control" id="lastname" placeholder="Last Name">
                                         </div>
                                     </div>
 
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <label for="email" class="email">Email<sup>*</sup></label>
-                                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Your email">
-                                        </div>
+                                    <div class="input-wrapper">
+                                        <label for="email" class="email">Email<sup>*</sup></label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Your email">
                                     </div>
 
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <label for="message" class="message">Leave us a message<sup>*</sup></label>
-                                            <textarea name="message" id="message" placeholder="Message" class="form-control"></textarea>
-                                        </div>
+                                    <div class="input-wrapper">
+                                        <label for="message" class="message">Leave us a message<sup>*</sup></label>
+                                        <textarea name="message" id="message" placeholder="Message" class="form-control"></textarea>
                                     </div>
 
                                     <div class="form-check mt-3">
@@ -473,14 +475,13 @@
                                         <label class="form-check-label" for="exampleCheck1">
                                         I agree with <span style="text-decoration: underline;">Terms of Use.</span></label>
                                     </div>
-                                    <button type="submit" class="ctab submit">SUBMIT</button>
+                                    <button type="submit" class="ctab submit">Submit</button>
                                 </form>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
 
         </div>
     @endsection

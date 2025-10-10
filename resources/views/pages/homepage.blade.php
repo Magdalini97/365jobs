@@ -7,7 +7,7 @@
 
             <div class="container">
                 <div class="row">
-                    <div class="col-xm-3">
+                    <div class="col-lg-6">
                         <div class="paragraph">
                             <h1>Let's build your team <span>together</span></h1>
                             <p>Our aim is to make the job market accessible to everyone,
@@ -19,7 +19,7 @@
                                 you are a third country national looking for work in Greece.
                                 Contact us today and find out more about our services.</p>
                             <div class="btns">
-                                <a href="#" title="em" class="ctab em">I am an employer</a>
+                                <a href="#" title="em" class="bitn btn--primary">I am an employer</a>
                                 <a href="#" title="em" class="ctab can">I am a candidate</a>
                             </div>
                         </div>
@@ -114,7 +114,8 @@
 
                                 <div class="category">
                                     <a href="#" title="carta" class="carta">
-                                        <div class="positions"><img src="/_365jobs/images/gardener.jpg" alt="fishing"></div>
+                                        <div class="positions"><img src="/_365jobs/images/gardener.jpg" alt="fishing">
+                                        </div>
                                         <div class="overlay"></div>
                                         <div class="slide-label">
                                             <p>Tourism</p>
@@ -164,7 +165,8 @@
                                         <li>Shipyard workers </li>
                                     </ul>
                                 </a>
-                                <div class="viewall"><a href="#" title="view all" class="v-all">View all</a></div>
+                                <div class="viewall"><a href="#" title="view all" class="v-all">View all</a>
+                                </div>
                             </div>
 
 
@@ -173,7 +175,8 @@
 
                                 <div class="category">
                                     <a href="#" title="carta" class="carta">
-                                        <div class="positions"><img src="/_365jobs/images/fishing.jpg" alt="fishing"></div>
+                                        <div class="positions"><img src="/_365jobs/images/fishing.jpg" alt="fishing">
+                                        </div>
                                         <div class="overlay"></div>
                                         <div class="slide-label">
                                             <p>Fishing</p>
@@ -356,7 +359,8 @@
 
                                     <div class="velos">
                                         <div class="belos"><img src="/_365jobs/images/vel.png" alt="svg"></div>
-                                        <div class="symbol"><img src="/_365jobs/images/velaspro.png" alt="svg"></div>
+                                        <div class="symbol"><img src="/_365jobs/images/velaspro.png" alt="svg">
+                                        </div>
                                     </div>
                                 </div>
                                 <p>01 Mar 2024</p>
@@ -370,7 +374,8 @@
 
                                     <div class="velos">
                                         <div class="belos"><img src="/_365jobs/images/vel.png" alt="svg"></div>
-                                        <div class="symbol"><img src="/_365jobs/images/velaspro.png" alt="svg"></div>
+                                        <div class="symbol"><img src="/_365jobs/images/velaspro.png" alt="svg">
+                                        </div>
                                     </div>
                                 </div>
                                 <p>01 Mar 2024</p>
@@ -384,7 +389,8 @@
 
                                     <div class="velos">
                                         <div class="belos"><img src="/_365jobs/images/vel.png" alt="svg"></div>
-                                        <div class="symbol"><img src="/_365jobs/images/velaspro.png" alt="svg"></div>
+                                        <div class="symbol"><img src="/_365jobs/images/velaspro.png" alt="svg">
+                                        </div>
                                     </div>
                                 </div>
                                 <p>01 Mar 2024</p>
@@ -398,7 +404,8 @@
 
                                     <div class="velos">
                                         <div class="belos"><img src="/_365jobs/images/vel.png" alt="svg"></div>
-                                        <div class="symbol"><img src="/_365jobs/images/velaspro.png" alt="svg"></div>
+                                        <div class="symbol"><img src="/_365jobs/images/velaspro.png" alt="svg">
+                                        </div>
                                     </div>
                                 </div>
                                 <p>01 Mar 2024</p>
@@ -430,58 +437,60 @@
             </div>
         </div>
 
-        <div class="hforma">
+        <div class="hforma" style="background-color: #E2DFFE;">
 
-            <div class="contact" style="background-color: #E2DFFE;">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-5 col-md-6">
-                            <div class="leftcon">
-                                <a href="#" title="contact">Contact us</a>
-                                <h2>Let’s build your team <span>together</span></h2>
-                                <p>Are you stuck and need help?
+            <div class="container">
+                <div class="row">
+                    <div class="col-5 col-md-6">
+                        <div class="contact">
+                            <a href="#" title="contact">Contact us</a>
+                            <h2>Let’s build your team <span>together</span></h2>
+                            <p>Are you stuck and need help?
                                 Then connect with us by filling in your details
                                 and we at 365jobs will do our best to support you as sson as possible.</p>
-                            </div>
                         </div>
+                    </div>
 
-                        <div class="col-6 col-md-6"  >
-                            <div class="form-container">
-                                <form>
-                                    <div class="row-name">
-                                        <div class="input-wrapper">
-                                            <label for="firstname" class="firstname">First Name<sup>*</sup></label>
-                                            <input type="text" class="form-control" id="firstname" placeholder="First Name">
-                                        </div>
-
-                                        <div class="input-wrapper">
-                                            <label for="lastname" class="lastname">Last Name<sup>*</sup></label>
-                                            <input type="text" class="form-control" id="lastname" placeholder="Last Name">
-                                        </div>
+                    <div class="col-6 col-md-6">
+                        <div class="form-container">
+                            <form>
+                                <div class="row-name">
+                                    <div class="input-wrapper">
+                                        <label for="firstname" class="firstname">First Name<sup>*</sup></label>
+                                        <input type="text" class="form-control" id="firstname"
+                                            placeholder="First Name">
                                     </div>
 
                                     <div class="input-wrapper">
-                                        <label for="email" class="email">Email<sup>*</sup></label>
-                                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Your email">
+                                        <label for="lastname" class="lastname">Last Name<sup>*</sup></label>
+                                        <input type="text" class="form-control" id="lastname"
+                                            placeholder="Last Name">
                                     </div>
+                                </div>
 
-                                    <div class="input-wrapper">
-                                        <label for="message" class="message">Leave us a message<sup>*</sup></label>
-                                        <textarea name="message" id="message" placeholder="Message" class="form-control"></textarea>
-                                    </div>
+                                <div class="input-wrapper">
+                                    <label for="email" class="email">Email<sup>*</sup></label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        placeholder="Your email">
+                                </div>
 
-                                    <div class="form-check mt-3">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                        <label class="form-check-label" for="exampleCheck1">
+                                <div class="input-wrapper">
+                                    <label for="message" class="message">Leave us a message<sup>*</sup></label>
+                                    <textarea name="message" id="message" placeholder="Message" class="form-control"></textarea>
+                                </div>
+
+                                <div class="form-check mt-3">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">
                                         I agree with <span style="text-decoration: underline;">Terms of Use.</span></label>
-                                    </div>
-                                    <button type="submit" class="ctab submit">Submit</button>
-                                </form>
-                            </div>
+                                </div>
+                                <button type="submit" class="ctab submit">Submit</button>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
+
 
         </div>
     @endsection

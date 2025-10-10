@@ -1,83 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap");
-
-/* Globals */
-
-a {
-    text-decoration: unset;
-}
-
-body {
-    margin: 0;
-
-    box-sizing: border-box;
-    font-family: "Manrope", sans-serif;
-    background: #f9f8fc;
-    overflow-x: hidden;
-}
-
-.container {
-    max-width: 1600px;
-    --bs-gutter-x: 0;
-    --bs-gutter-y: 0;
-}
-
-.ctab {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #3a337c;
-    color: white;
-    font-size: 15px;
-    text-align: center;
-    font-weight: 400;
-    border-radius: 28px;
-    border: none;
-    min-width: 221px;
-    max-height: 55px;
-    padding: 20px;
-}
-.get-started .getstarted {
-    min-width: 220px;
-    background-color: white;
-    color: #3a337c;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 15px;
-    border-radius: 28px;
-    border: none;
-}
-
-.btns {
-    display: flex;
-    justify-content: left;
-    gap: 15px;
-}
-
-.btns .em {
-    background-color: #7c74c7;
-    min-width: 220px;
-}
-
-.btns .can {
-    background-color: transparent;
-    color: #7c74c7;
-    border: 1px solid #7c74c7;
-    gap: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.ctab:hover {
-    background-color: #3a337c;
-    opacity: 0.5;
-}
-
-.look {
-    display: none;
-}
 
 /*HEADER, FOOTER*/
 
@@ -239,7 +159,7 @@ body {
     }
 }
 
-@media (max-width: $breakpoint-lg) {
+@media (max-width: 992px) {
     .menu {
         display: flex;
         flex-direction: column;
@@ -294,7 +214,7 @@ body {
     }
 }
 
-@media (max-width: $breakpoint-lg) {
+@media (max-width: 992px) {
     footer {
 
         ul {
@@ -394,7 +314,7 @@ body {
 
 /*PAGES*/
 
-@media (max-width: $breakpoint-lg) {
+@media (max-width: 992px) {
     .hero {
         padding: 0;
         margin: 0;
@@ -733,7 +653,7 @@ body {
     }
 }
 
-@media (max-width: $breakpoint-lg) {
+@media (max-width: 992px) {
     .htessera{
         margin: 0;
         padding: 0;
@@ -1037,4 +957,297 @@ body {
             margin-top: 20px;
         }
     }
+}
+
+.servicesblade{
+    @media (max-width: 576px) {
+        .shero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+            margin: 70px 0;
+
+            .service {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                padding-top: 40px;
+            }
+            .service h1 {
+                font-weight: 700;
+                font-size: 40px;
+                text-align: center;
+            }
+
+            .service p {
+                font-weight: 400;
+                font-size: 17px;
+                color: #717178;
+                text-align: center;
+            }
+
+            .btns {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 20px;
+            }
+
+            .em,
+            .can {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                min-width: 400px;
+            }
+        }
+
+
+        .sena .row {
+            background-color: white;
+            border-radius: 0 0 50px 50px;
+            display: flex;
+            gap: 30px;
+            flex-direction: column;
+
+            .col {
+                width: 100%;
+                padding: 0;
+            }
+
+            .what {
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                justify-content: center;
+                min-width: 450px;
+                gap: 15px;
+            }
+
+            .what h2 {
+                font-size: 40px;
+                font-weight: 700;
+                padding-bottom: 15px;
+                border-bottom: 5px solid #7c74c7;
+            }
+
+            .what h2 span {
+                color: #3a337c;
+            }
+
+            .what p {
+                display: block;
+                font-size: 17px;
+                font-weight: 400;
+                color: #717178;
+                min-width: 350px;
+                text-align: left;
+                letter-spacing: 1px;
+            }
+
+            .par {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .par p {
+                display: none;
+                padding: 10px;
+                font-size: 10px;
+                font-weight: 600;
+                color: #717178;
+                text-align: left;
+            }
+            .erotisi {
+                min-width: 500px;
+            }
+
+            .erotisi ul {
+                flex-direction: column;
+                display: flex;
+                gap: 15px;
+                padding: 0;
+                max-width: 450px;
+            }
+            .erotisi li {
+                list-style-type: none;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            li a {
+                font-size: 22px;
+                font-weight: 600;
+                color: #3a337c;
+                display: flex;
+            }
+        }
+
+        .sdio {
+        background-color: #ebe9fb;
+        border-radius: 0 0 50px 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .col-4,
+        .offset-1,
+        .offset-2 {
+            margin-left: 0;
+            max-width: 100%;
+            flex: 0 0 100%;
+        }
+
+        .keimeno {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: center;
+            padding-left: 20px;
+        }
+
+        .keimeno h1 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #3a337c;
+        }
+        .keimeno p {
+            font-size: 17px;
+            font-weight: 400;
+            color: #717178;
+        }
+
+        .solutions {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 30px;
+            padding-top: 20px;
+        }
+
+        .solutions img {
+            max-width: 300px;
+            height: auto;
+            aspect-ratio: 1/1;
+            border-radius: 100%;
+        }
+
+        .solutions div {
+            border: 1px solid #3a337c;
+            border-radius: 100%;
+            background-color: #3a337c;
+            position: relative;
+        }
+
+        .solutions .mikro {
+            position: absolute;
+            width: 53px;
+            height: 53px;
+            top: 450px;
+            left: 0px;
+        }
+        .solutions .mesaio {
+            position: absolute;
+            width: 71px;
+            height: 71px;
+            top: 15px;
+            left: 60px;
+        }
+        .solutions .megalo {
+            position: absolute;
+            width: 115px;
+            height: 115px;
+            bottom: 15px;
+            right: 70px;
+        }
+
+    }
+
+    .stria {
+        background-color: #f9f8fc;
+        border-radius: 0 0 50px 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 80px;
+
+        .col-4,
+        .col-5 {
+            margin-left: 0;
+            max-width: 100%;
+            flex: 0 0 100%;
+        }
+
+        .keimenos {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30px;
+            padding: 20px;
+        }
+        .keimenos h1 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #3a337c;
+            text-align: left;
+        }
+        .keimenos p {
+            font-size: 17px;
+            font-weight: 400;
+            color: #717178;
+        }
+
+        .solution {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .solution img {
+            max-width: 300px;
+            height: auto;
+            aspect-ratio: 1/1;
+            border-radius: 100%;
+            object-fit: cover;
+        }
+
+        .solution div {
+            border: 1px solid #7c74c7;
+            border-radius: 100%;
+            background-color: #7c74c7;
+        }
+
+        .solution .mikro {
+            position: absolute;
+            width: 53px;
+            height: 53px;
+            bottom: 20px;
+            left: 400px;
+        }
+        .solution .mesaio {
+            position: absolute;
+            width: 71px;
+            height: 71px;
+            top: 30px;
+            left: 380px;
+        }
+        .solution .megalo {
+            position: absolute;
+            width: 115px;
+            height: 115px;
+            bottom: 15px;
+            left: 0px;
+        }
+    }
+ }
 }

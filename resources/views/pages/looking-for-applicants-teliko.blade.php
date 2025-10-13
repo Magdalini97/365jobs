@@ -9,7 +9,7 @@
                     <form action="" method="POST">
                         <div class="looking-for-applicants-1">
                             <div class="staff">
-                                <h1>What Staff do you need?</h1>
+                                <h1 class="page-title">What Staff do you need?</h1>
 
                                 <div class="input-wrapper d-flex align-items-center justify-content-center">
                                     <label for="search" class="search"></label>

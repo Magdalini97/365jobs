@@ -1,0 +1,102 @@
+$primary-color:#f9f8fc;
+
+$primary: $primary-color;
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+a {
+    text-decoration: unset;
+}
+
+body {
+    margin: 0;
+
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+    background: #f9f8fc;
+    overflow-x: hidden;
+}
+
+.ctab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3a337c;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 400;
+    border-radius: 28px;
+    border: none;
+    min-width: 221px;
+    max-height: 55px;
+    padding: 20px;
+}
+.get-started .getstarted {
+    min-width: 220px;
+    background-color: white;
+    color: #3a337c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    border-radius: 28px;
+    border: none;
+}
+
+.btns {
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+}
+
+.btns .em {
+    background-color: #7c74c7;
+    min-width: 220px;
+}
+
+.btns .can {
+    background-color: transparent;
+    color: #7c74c7;
+    border: 1px solid #7c74c7;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ctab:hover {
+    background-color: #3a337c;
+    opacity: 0.5;
+}
+
+.look {
+    display: none;
+}
+
+.bitn{
+    padding:15px;
+    min-width:221px;
+    border-radius: 50px;
+    @include flex-center;
+    text-align: center;
+    font-weight: 400;
+    text-decoration: unset;
+    border: 1px solid blue;
+
+}
+.btn--primary{
+    background-color: #3a337c;
+    color:white;
+}
+.btn--secondary{
+    background-color: #7c74c7;
+    min-width: 220px;
+}

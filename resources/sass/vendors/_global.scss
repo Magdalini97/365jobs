@@ -8,8 +8,6 @@ $primary: $primary-color;
     justify-content: center;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap");
-
 
 
 a {
@@ -23,12 +21,6 @@ body {
     font-family: "Manrope", sans-serif;
     background: #f9f8fc;
     overflow-x: hidden;
-}
-
-.container {
-    max-width: 1600px;
-    --bs-gutter-x: 0;
-    --bs-gutter-y: 0;
 }
 
 .ctab {

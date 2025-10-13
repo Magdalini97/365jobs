@@ -1,0 +1,56 @@
+header {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    background-color: transparent;
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 35px;
+    }
+
+    .navbar {
+        overflow: hidden;
+        position: fixed;
+        left: 35%;
+        width: 25%;
+        margin-top: 15px;
+    }
+
+    .navbar #icon {
+        display: none;
+    }
+
+    .navbar a {
+        color: black;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 29px;
+    }
+    .navbar a img {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    .navbar a:hover {
+        border-bottom: 5px solid #7c74c7;
+    }
+
+    .job {
+        min-width: 170px;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        text-align: center;
+        justify-content: left;
+        background: transparent;
+        padding: 0px;
+    }
+}

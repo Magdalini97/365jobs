@@ -1,0 +1,40 @@
+.primary-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3A337C;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    line-height: 27px;
+    font-weight: 400;
+    padding: 15px 45px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 28px;
+    width: fit-content;
+    min-width: 176px;
+
+    &.employer{
+        background-color: #7C74C7;
+        color: white;
+    }
+
+    &.transparent{
+        border:1px solid #7C74C7;
+        color: #7C74C7;
+        background-color: transparent;
+    }
+}
+.primary-btn:hover{
+    background-color: #7C74C7;
+
+    &.employer{
+        background-color: #3A337C;
+
+    }
+    &.transparent{
+        background-color: #F9F8FC;
+    }
+
+}

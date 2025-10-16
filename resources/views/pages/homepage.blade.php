@@ -43,7 +43,6 @@
             </div>
 
 
-
             <div class="container">
                 <div class="row">
                     <div class="positions-swiper swiper">
@@ -66,18 +65,18 @@
 
                                 <a href="#" title="hoverli" class="hoverli">
                                     <ul>
-                                        <li><img src="/_365jobs/images/vel.png" alt="png">Fishermen</li>
-                                        <li><img src="/_365jobs/images/vel.png" alt="png">Unskilled fishery workers
+                                        <li><img src="/_365jobs/images/Line 5 Copy 7.png" alt="png">Fishermen</li>
+                                        <li><img src="/_365jobs/images/Line 5 Copy 7.png" alt="png">Unskilled fishery workers
                                         </li>
-                                        <li><img src="/_365jobs/images/vel.png" alt="png">Aquacultural workers
+                                        <li><img src="/_365jobs/images/Line 5 Copy 7.png" alt="png">Aquacultural workers
                                         </li>
-                                        <li><img src="/_365jobs/images/vel.png" alt="png">Fish farming workers
+                                        <li><img src="/_365jobs/images/Line 5 Copy 7.png" alt="png">Fish farming workers
                                         </li>
-                                        <li><img src="/_365jobs/images/vel.png" alt="png">Skippers</li>
-                                        <li><img src="/_365jobs/images/vel.png" alt="png">Shipyard workers</li>
+                                        <li><img src="/_365jobs/images/Line 5 Copy 7.png" alt="png">Skippers</li>
+                                        <li><img src="/_365jobs/images/Line 5 Copy 7.png" alt="png">Shipyard workers</li>
                                     </ul>
                                 </a>
-                                <div class="viewall"><a href="#" title="view all" class="v-all">View all</a></div>
+                                <div class="viewall"><a href="#" title="view all">View all</a></div>
                             </div>
 
 
@@ -97,17 +96,17 @@
 
                                 <a href="#" title="hoverli" class="hoverli">
                                     <ul>
-                                        <li><img src="/_365jobs/images/vel.png" alt="png">Fishermen</li>
-                                        <li><img src="/_365jobs/images/vel.png" alt="png">Unskilled fishery workers
+                                        <li><img src="/_365jobs/images/Line 5 Copy 7.png" alt="png">Fishermen</li>
+                                        <li><img src="/_365jobs/images/Line 5 Copy 7.png" alt="png">Unskilled fishery workers
                                         </li>
-                                        <li><img src="/_365jobs/images/vel.png" alt="png">Aquacultural workers</li>
-                                        <li><img src="/_365jobs/images/vel.png" alt="png">Fish farming workers </li>
-                                        <li><img src="/_365jobs/images/vel.png" alt="png">Skippers </li>
-                                        <li><img src="/_365jobs/images/vel.png" alt="png">Shipyard workers</li>
+                                        <li><img src="/_365jobs/images/Line 5 Copy 7.png" alt="png">Aquacultural workers</li>
+                                        <li><img src="/_365jobs/images/Line 5 Copy 7.png" alt="png">Fish farming workers </li>
+                                        <li><img src="/_365jobs/images/Line 5 Copy 7.png" alt="png">Skippers </li>
+                                        <li><img src="/_365jobs/images/Line 5 Copy 7.png" alt="png">Shipyard workers</li>
                                     </ul>
 
                                 </a>
-                                <div class="viewall"><a href="#" title="view all" class="v-all">View all</a></div>
+                                <div class="viewall"><a href="#" title="view all">View all</a></div>
                             </div>
 
 
@@ -129,18 +128,18 @@
 
                                 <a href="#" title="hoverli" class="hoverli">
                                     <ul>
-                                        <li><img src="/_365jobs/images/vel.png" alt="png">Fishermen</li>
-                                        <li><img src="/_365jobs/images/vel.png" alt="png">Unskilled fishery
+                                        <li><img src="/_365jobs/images/Line 5 Copy 7.png" alt="png">Fishermen</li>
+                                        <li><img src="/_365jobs/images/Line 5 Copy 7.png" alt="png">Unskilled fishery
                                             workers </li>
-                                        <li><img src="/_365jobs/images/vel.png" alt="png">Aquacultural workers
+                                        <li><img src="/_365jobs/images/Line 5 Copy 7.png" alt="png">Aquacultural workers
                                         </li>
-                                        <li><img src="/_365jobs/images/vel.png" alt="png">Fish farming workers
+                                        <li><img src="/_365jobs/images/Line 5 Copy 7.png" alt="png">Fish farming workers
                                         </li>
-                                        <li><img src="/_365jobs/images/vel.png" alt="png">Skippers </li>
-                                        <li><img src="/_365jobs/images/vel.png" alt="png">Shipyard workers</li>
+                                        <li><img src="/_365jobs/images/Line 5 Copy 7.png" alt="png">Skippers </li>
+                                        <li><img src="/_365jobs/images/Line 5 Copy 7.png" alt="png">Shipyard workers</li>
                                     </ul>
                                 </a>
-                                <div class="viewall"><a href="#" title="view all" class="v-all">View all</a>
+                                <div class="viewall"><a href="#" title="view all">View all</a>
                                 </div>
                             </div>
 
@@ -162,18 +161,18 @@
 
                                 <a href="#" title="hoverli" class="hoverli">
                                     <ul>
-                                        <li><img src="/_365jobs/images/vel.png" alt="png">Fishermen</li>
-                                        <li><img src="/_365jobs/images/vel.png" alt="png">Unskilled fishery
+                                        <li><img src="/_365jobs/images/Line 5 Copy 7.png" alt="png">Fishermen</li>
+                                        <li><img src="/_365jobs/images/Line 5 Copy 7.png" alt="png">Unskilled fishery
                                             workers </li>
-                                        <li><img src="/_365jobs/images/vel.png" alt="png">Aquacultural workers
+                                        <li><img src="/_365jobs/images/Line 5 Copy 7.png" alt="png">Aquacultural workers
                                         </li>
-                                        <li><img src="/_365jobs/images/vel.png" alt="png">Fish farming workers
+                                        <li><img src="/_365jobs/images/Line 5 Copy 7.png" alt="png">Fish farming workers
                                         </li>
-                                        <li><img src="/_365jobs/images/vel.png" alt="png">Skippers </li>
-                                        <li><img src="/_365jobs/images/vel.png" alt="png">Shipyard workers</li>
+                                        <li><img src="/_365jobs/images/Line 5 Copy 7.png" alt="png">Skippers </li>
+                                        <li><img src="/_365jobs/images/Line 5 Copy 7.png" alt="png">Shipyard workers</li>
                                     </ul>
                                 </a>
-                                <div class="viewall"><a href="#" title="view all" class="v-all">View all</a>
+                                <div class="viewall"><a href="#" title="view all">View all</a>
                                 </div>
                             </div>
 
@@ -199,15 +198,15 @@
 
                                 <a href="#" title="hoverli" class="hoverli">
                                     <ul>
-                                        <li><img src="/_365jobs/images/vel.png" alt="png">Fishermen</li>
-                                        <li><img src="/_365jobs/images/vel.png" alt="png">Unskilled fishery
+                                        <li><img src="/_365jobs/images/Line 5 Copy 7.png" alt="png">Fishermen</li>
+                                        <li><img src="/_365jobs/images/Line 5 Copy 7.png" alt="png">Unskilled fishery
                                             workers </li>
-                                        <li><img src="/_365jobs/images/vel.png" alt="png">Aquacultural workers
+                                        <li><img src="/_365jobs/images/Line 5 Copy 7.png" alt="png">Aquacultural workers
                                         </li>
-                                        <li><img src="/_365jobs/images/vel.png" alt="png">Fish farming workers
+                                        <li><img src="/_365jobs/images/Line 5 Copy 7.png" alt="png">Fish farming workers
                                         </li>
-                                        <li><img src="/_365jobs/images/vel.png" alt="png">Skippers </li>
-                                        <li><img src="/_365jobs/images/vel.png" alt="png">Shipyard workers</li>
+                                        <li><img src="/_365jobs/images/Line 5 Copy 7.png" alt="png">Skippers </li>
+                                        <li><img src="/_365jobs/images/Line 5 Copy 7.png" alt="png">Shipyard workers</li>
                                     </ul>
                                     <div class="viewall"><a href="#" title="view all">View all</a></div>
                                 </a>
@@ -233,7 +232,7 @@
 
 
                     <div class="col-6 offset-1">
-                        <div class="aboutus">
+                        <div class="aboutus-content">
                             <a class="small-title" href="/aboutus" title="About us">About us</a>
                             <h2 class="section-title">We connect businesses and<span> job seekers</span></h2>
                             <div class="html-content">
@@ -261,10 +260,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <div class="service">
-                            <a class="section-title" href="/services" title="services">Services</a>
-                        </div>
-
+                        <a class="section-title" href="/services" title="services">Services</a>
                         <div class="services">
                             <div class="bar">
                                 <button type="button" class="active one">Recruitment<br> solutions</button>
@@ -341,8 +337,6 @@
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </div>
@@ -354,73 +348,67 @@
     <div class="htessera">
         <div class="container">
             <div class="row justify-content-center">
-                <a class="small-title" href="#" title=new class="news">News & HR Hub</a>
+                <a class="small-title" href="#" title="new" class="news">News & HR Hub</a>
                 <h2 class="section-title">Expand your HR knowledge</h2>
 
-                <a href="#" title="how" class="how"> <hr>
-                    <div class="dio">
-                        <h4> Employees and Employers Can Thrive With a
-                            4-Day Workweek
-                        </h4>
-
-                        <div class="velos">
-                            <div class="belos"><img src="/_365jobs/images/vel.png" alt="svg"></div>
-                            <div class="symbol"><img src="/_365jobs/images/velaspro.png" alt="svg">
-                            </div>
+                <a href="#" title="news-list" class="news-list">
+                        <div class="news-info">
+                            <h4> Employees and Employers Can Thrive With a
+                                4-Day Workweek
+                            </h4> 
+                            <div class="click-info">
+                                <div class="circle-btn"><img src="/_365jobs/images/vel.png" alt="svg"></div>
+                                <div class="circle-btn-blue"><img src="/_365jobs/images/velaspro.png" alt="svg"></div> 
+                            </div> 
                         </div>
+                        <div class="html-content"> 
+                            <p>01 Mar 2024</p>
+                        </div>
+                          
+                </a>
+
+                <a href="#" title="news-list" class="news-list">
+                    <div class="news-info">
+                            <h4> Employees and Employers Can Thrive With a
+                                4-Day Workweek
+                            </h4> 
+                            <div class="click-info">
+                                <div class="circle-btn"><img src="/_365jobs/images/vel.png" alt="svg"></div>
+                                <div class="circle-btn-blue"><img src="/_365jobs/images/velaspro.png" alt="svg"></div> 
+                            </div>
                     </div>
-                    <div class="html-content">
+                    <div class="html-content"> 
                         <p>01 Mar 2024</p>
                     </div>
                 </a>
 
-                <a href="#" title="how" class="how">
-                    <div class="dio">
-                        <h4> Employees and Employers Can Thrive With a
-                            4-Day Workweek
-                        </h4>
-
-                        <div class="velos">
-                            <div class="belos"><img src="/_365jobs/images/vel.png" alt="svg"></div>
-                            <div class="symbol"><img src="/_365jobs/images/velaspro.png" alt="svg">
+                <a href="#" title="news-list" class="news-list">
+                  <div class="news-info">
+                            <h4> Employees and Employers Can Thrive With a
+                                4-Day Workweek
+                            </h4> 
+                            <div class="click-info">
+                                <div class="circle-btn"><img src="/_365jobs/images/vel.png" alt="svg"></div>
+                                <div class="circle-btn-blue"><img src="/_365jobs/images/velaspro.png" alt="svg"></div> 
                             </div>
-                        </div>
                     </div>
-                    <div class="html-content">
+                    <div class="html-content"> 
                         <p>01 Mar 2024</p>
                     </div>
                 </a>
 
-                <a href="#" title="how" class="how">
-                    <div class="dio">
-                        <h4> Employees and Employers Can Thrive With a
-                            4-Day Workweek
-                        </h4>
-
-                        <div class="velos">
-                            <div class="belos"><img src="/_365jobs/images/vel.png" alt="svg"></div>
-                            <div class="symbol"><img src="/_365jobs/images/velaspro.png" alt="svg">
-                            </div>
-                        </div>
+                <a href="#" title="news-list" class="news-list">
+            
+                    <div class="news-info">
+                            <h4> Employees and Employers Can Thrive With a
+                                4-Day Workweek
+                            </h4> 
+                            <div class="click-info">
+                                <div class="circle-btn"><img src="/_365jobs/images/vel.png" alt="svg"></div>
+                                <div class="circle-btn-blue"><img src="/_365jobs/images/velaspro.png" alt="svg"></div> 
+                            </div> 
                     </div>
-                    <div class="html-content">
-                        <p>01 Mar 2024</p>
-                    </div>
-                </a>
-
-                <a href="#" title="how" class="how">
-                    <div class="dio">
-                        <h4> Employees and Employers Can Thrive With a
-                            4-Day Workweek
-                        </h4>
-
-                        <div class="velos">
-                            <div class="belos"><img src="/_365jobs/images/vel.png" alt="svg"></div>
-                            <div class="symbol"><img src="/_365jobs/images/velaspro.png" alt="svg">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="html-content">
+                    <div class="html-content"> 
                         <p>01 Mar 2024</p>
                     </div>
                 </a>

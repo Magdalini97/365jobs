@@ -18,12 +18,14 @@
     &.employer{
         background-color: #7C74C7;
         color: white;
+        min-width: 220px;
     }
 
     &.transparent{
         border:1px solid #7C74C7;
         color: #7C74C7;
         background-color: transparent;
+        min-width: 205px;
     }
 }
 .primary-btn:hover{

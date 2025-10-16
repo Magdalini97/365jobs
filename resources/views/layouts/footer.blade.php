@@ -1,8 +1,8 @@
 <footer>
     <div class="container">
         <div class="job"><img src="/_365jobs/images/365jobs.svg" alt="logo"></div>
-        <div class="lists">
-            <div class="li1">
+        <div class="footer-lists">
+            <div class="list">
                 <h5>Navigation</h5>
                 <ul style="list-style-type: none;">
                     <li><a href="/positions" title="Positions">Positions</a></li>
@@ -13,7 +13,7 @@
                 </ul>
             </div>
 
-            <div class="li2">
+            <div class="list">
                 <h5>Legal</h5>
                 <ul style="list-style-type: none;">
                     <li><a href="#" title="terms of use">Όροι Χρήσης</a></li>
@@ -22,7 +22,7 @@
                 </ul>
             </div>
 
-            <div class="li3">
+            <div class="list">
                 <h5>Follow us</h5>
                 <ul class="icons" style="list-style-type: none;">
                     <li><a href="#" title="fb"><img src="/_365jobs/images/facebook copy.svg"

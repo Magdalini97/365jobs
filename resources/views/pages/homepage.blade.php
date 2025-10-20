@@ -283,9 +283,8 @@
                 </div>
 
 
-
                 <div class="row">
-                    <div class="col offset-1">
+                    <div class="col-10 offset-1">
                         <div class="services-swiper swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
@@ -414,9 +413,7 @@
                 </a>
                 <a href="#" class="primary-btn">All news</a>
             </div>
-
         </div>
-
     </div>
 
     <div class="hpente">
@@ -441,7 +438,7 @@
     <div class="hforma" style="background-color: #E2DFFE;">
         <div class="container">
             <div class="row  d-flex justify-content-lg-between">
-                <div class="col-lg-5">
+                <div class="col-5">
                     <div class="contact">
                         <a class="small-title" href="/contact" title="contact us">Contact us</a>
                         <h1 class=page-title>Let’s build your team <span>together</span></h1>
@@ -454,7 +451,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6">
+                <div class="col-6">
                     <div class="form-container">
                         <form>
                             <div class="row-name">

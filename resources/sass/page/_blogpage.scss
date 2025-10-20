@@ -1,0 +1,263 @@
+.blogblade {
+    padding-bottom: 190px;
+    background-color: white;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+    .bhero {
+        padding-top: 190px;
+          
+        .col-10{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-inline: 0;
+        }
+     
+        .page-title{
+            max-width:450px;
+        }
+
+        .element{
+            max-width:350px;
+        }
+         
+        .circle-div {
+            border-radius: 100%;
+            width: 335px;
+            height: 335px;
+            background-color: #ebe9fb;
+            position: relative;
+        }
+
+        .circle-div div{
+            border: 1px solid #3a337c;
+            border-radius: 100%;
+            background-color: #3a337c;
+            position: absolute;
+        }
+
+        .circle-div .small { 
+            width: 38px;
+            height: 38px;
+            top: 230px;
+            left: -50px;
+        }
+
+        .circle-div .medium {
+            width: 52px;
+            height: 52px;
+            top: 0;
+            left: 40px;
+        }
+
+        .circle-div .large {
+            width: 83px;
+            height: 83px;
+            bottom: 20px;
+            left: 250px;
+        }
+    }
+
+
+    .news{
+        margin-top: 95px; 
+        .htessera {
+            margin-top: 0;
+            .container{
+                max-width:1215px;         
+            }
+
+            .small-title {
+                text-align: center;
+            }
+            .section-title{
+               text-align: center;
+                margin-top: 5px;
+            }
+  
+           .news-list{
+                display: flex;
+                flex-direction: column;
+                border-top: 1px solid #d8d8dd;
+                border-bottom: none;
+                margin-block:0;
+                &:nth-of-type(4){
+                    border-bottom: 1px solid #d8d8dd;
+                }
+            }
+
+            .news-info{
+                margin-top: 65px;
+                display: flex;
+                 justify-content:space-between;
+            }
+ 
+            .news-info h4 {
+                margin: 10px 0;
+                color: #3a337c;
+                font-size: 28px;
+                font-weight: 400;
+                line-height: 40px;
+                max-width: 750px;
+                text-align: left;
+            }
+            .html-content{
+                margin-top: 25px;
+                padding-bottom: 65px;
+            }
+ 
+            .news-info h4:hover {
+                color: #7c74c7;
+            }
+            .html-content p:hover {
+                color: #7c74c7;
+            }
+   
+            .click-info {
+                position: relative;
+                margin-top: 30px;
+            }
+            .circle-btn-blue {
+                background-color: #3a337c;
+                border: none;
+                min-width: 55px;
+                height: 55px;
+                border-radius: 100%;
+                margin-right: 30px;
+                position: absolute;
+                bottom: 15px;
+                opacity: 0;
+                transition: 0.3s ease;
+            }
+            .circle-btn-blue img {
+                margin-top: 20px;
+                opacity: 0;
+                position: absolute;
+                left:40%;     
+            }
+
+            .circle-btn {
+                border: 1px solid #3a337c;
+                min-width: 55px;
+                height: 55px;
+                border-radius: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 30px;
+                transition: 0.3s ease;
+            }
+            .click-info:hover .circle-btn {
+                opacity: 0;
+            }
+
+            .click-info:hover .circle-btn-blue,
+            .click-info:hover .circle-btn-blue img {
+                opacity: 1;
+            }
+        }
+    }
+    
+
+    @media (max-width: 576px) {
+        .bhero {
+            position: relative;
+
+            .row {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            h1 {
+                font-size: 40px;
+                font-weight: 700;
+
+                margin: 0;
+                text-align: left;
+                flex: 1;
+            }
+
+            .basic {
+                border-radius: 100%;
+                width: 335px;
+                background-color: #ebe9fb;
+                position: absolute;
+                object-fit: cover;
+                z-index: -1;
+                left: 30%;
+                top: 0;
+            }
+
+            .basic .mikro {
+                border: 1px solid #3a337c;
+                border-radius: 100%;
+                background-color: #3a337c;
+                position: absolute;
+                width: 38px;
+                height: 38px;
+                top: 5%;
+                left: 70%;
+            }
+            .basic .mesaio {
+                border: 1px solid #3a337c;
+                border-radius: 100%;
+                background-color: #3a337c;
+                position: absolute;
+                width: 52px;
+                height: 52px;
+                top: 0;
+                left: 15%;
+            }
+            .basic .megalo {
+                border: 1px solid #3a337c;
+                border-radius: 100%;
+                background-color: #3a337c;
+                position: absolute;
+                width: 83px;
+                height: 83px;
+                bottom: 10%;
+                left: 70%;
+            }
+        }
+
+        .htessera {
+            h2 {
+                font-size: 18px;
+                font-weight: 400;
+            }
+
+            .how .dio .velos {
+                background-color: #3a337c;
+                color: white;
+                width: 150px;
+                height: auto;
+                aspect-ratio: 1;
+                border-radius: 100%;
+            }
+            .how .dio .velos .belos {
+                font-size: 15px;
+            }
+            .how .dio {
+                display: flex;
+                justify-content: end;
+                align-items: end;
+                flex-direction: row;
+                padding: 0;
+                margin: 0;
+                text-align: left;
+            }
+
+            .how .dio a,
+            .how p {
+                text-align: left;
+            }
+            .all {
+                font-size: 15px;
+                font-weight: 500;
+            }
+        }
+    }
+}

@@ -1,0 +1,432 @@
+.aboutusblade {
+    .abhero {
+        margin-block: 80px;
+
+        .container{
+            display: flex;
+            justify-content:space-between;
+        }
+
+        .page-title {
+           max-width: 375px;
+        }
+
+        .html-content{
+            margin-top: 20px;
+        }
+      
+        .big-image {
+            position:relative;
+            min-width: 800px;
+            min-height: 800px;
+            
+            img {
+                position: absolute;
+                top:80px;
+                min-width: 770px;
+                min-height: 770px;
+                object-fit: cover;
+                aspect-ratio: 1/1;
+                border-radius: 100%;
+            } 
+            
+            div{
+                border: 1px solid #7c74c7;
+                border-radius: 100%;
+                background-color: #7c74c7;
+                position: absolute;
+            }
+            .small {
+                width: 46px;
+                height: 46px;
+                top: 550px;
+                left: -280px;
+            }
+
+            .medium{
+                width: 74px;
+                height: 74px;
+                top: 130px;
+                left: 110px;
+            }
+
+            .large {
+                width: 112px;
+                height: 112px;
+                 bottom:0;
+                left: 100px;
+            }
+        }
+
+    }
+
+    .hdio {
+        margin-bottom: 150px;
+      
+        .col-5{
+            padding: 0;
+
+            img {
+                max-width: 100%;
+                height: auto;
+                object-fit: cover;
+                margin: auto;
+            }
+        }
+    
+        .col-6{
+            padding: 0;
+        }
+
+        .aboutus-content {
+            display: flex;
+            flex-direction: column;
+            max-width: 640px;
+         
+            .html-content {
+               margin-top: 20px;
+            }
+        }    
+    }
+
+    .abena {
+        background-color: #ebe9fb;
+        padding-block: 120px;
+        
+        .col-5{
+            padding: 0;
+         
+            img {
+                max-width: 100%;
+                height: auto;
+                object-fit: cover;
+                margin: auto;
+            }
+        }
+    
+        .col-6{
+            padding: 0;
+        }
+
+        .aboutus-content {
+            display: flex;
+            flex-direction: column;
+            min-width: 665px;
+
+            .section-title {
+                margin-top: 10px;
+            }
+
+            .html-content p{
+               margin-top: 20px;
+               max-width: 665px;
+              text-align: left;
+            }
+        }
+     
+    }
+
+    .abdio {
+        padding:160px 125px;
+        background-color: white;
+        border-radius: 0 0 50px 50px;
+      
+        .container{
+            min-width: 1205px;
+            padding: 0;
+        }
+
+        .section-title{
+            line-height: 60px;
+            text-align: center;
+            display: flex;
+            margin-inline: auto; 
+            flex-direction: column;
+            max-width: 575px;
+        }
+
+        .benefit-list {
+            display: flex;
+            flex-direction: row;
+            margin-top: 60px;
+            gap:100px;
+        }
+
+        .benefit-items{
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;     
+
+            :nth-of-type(3){
+              margin-top:0;
+            }
+         
+            .job-image {
+                border-radius: 100%;
+                background-color: #ebe9fb;
+                width: 67px;
+                height: 67px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 30px;
+        
+            } 
+            
+          
+            .small-title {
+                color: #3a337c;
+                line-height: 26px;
+                font-weight: 600; 
+                min-width: 190px;
+                text-align: center;
+                
+            }
+            .html-content {
+                margin-top: 5px;
+                max-width: 325px;
+                text-align: center;
+            }
+        }     
+    }
+    @media (max-width: 800px) {
+        .abhero {
+            margin-top: 150px;
+            border-radius: 50%;
+            padding: 20px;
+
+            .row {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .info {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .info h1 {
+                font-size: 40px;
+                font-weight: 700;
+                max-width: 350px;
+            }
+            .info p {
+                font-size: 17px;
+                font-weight: 400;
+                color: #717178;
+                margin-top: 20px;
+                text-align: center;
+                max-width: 300px;
+            }
+            .infor {
+                margin: 50px 0;
+                position: relative;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+            }
+            .infor img {
+                max-width: 100%;
+                height: auto;
+                aspect-ratio: 1/1;
+                object-fit: cover;
+                border-radius: 100%;
+            }
+
+            .infor .mikro {
+                border: 1px solid #7c74c7;
+                border-radius: 100%;
+                background-color: #7c74c7;
+                position: absolute;
+                width: 46px;
+                height: 46px;
+                top: 520px;
+                left: -280px;
+            }
+
+            .infor .mesaio {
+                border: 1px solid #7c74c7;
+                border-radius: 100%;
+                background-color: #7c74c7;
+                position: absolute;
+                width: 74px;
+                height: 74px;
+                top: 50px;
+                left: 110px;
+            }
+
+            .infor .megalo {
+                border: 1px solid #7c74c7;
+                border-radius: 100%;
+                background-color: #7c74c7;
+                position: absolute;
+                width: 112px;
+                height: 112px;
+                bottom: 20px;
+                left: 100px;
+            }
+        }
+
+        .hdio {
+            display: flex;
+
+            .about {
+                margin-top: 80px;
+                gap: 30px;
+            }
+
+            .about img {
+                max-width: 100%;
+                height: auto;
+                object-fit: cover;
+                margin: auto;
+            }
+
+            .aboutus {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin: 50px 0;
+                padding: 0;
+            }
+
+            .aboutus a {
+                text-decoration: none;
+                color: #7c74c7;
+                font-weight: 400;
+                font-size: 20px;
+                margin: 0;
+            }
+
+            .aboutus h1 {
+                font-weight: 700;
+                font-size: 32px;
+            }
+
+            .aboutus h1 span {
+                color: #3a337c;
+            }
+
+            .aboutus p {
+                font-weight: 400;
+                font-size: 17px;
+                color: #717178;
+            }
+
+            .aboutus button {
+                font-size: 15px;
+                font-weight: 400;
+                text-align: center;
+                margin-top: 20px;
+                width: 176px;
+            }
+        }
+
+        .abena {
+            height: auto;
+
+            img {
+                max-width: 100%;
+                height: auto;
+                object-fit: cover;
+                margin: auto;
+            }
+
+            .inform {
+                margin: 40px 0;
+            }
+
+            h3 {
+                font-weight: 700;
+                font-size: 32px;
+            }
+
+            h3 span {
+                color: #3a337c;
+                font-weight: 700;
+                font-size: 32px;
+            }
+
+            .inform p {
+                font-weight: 400;
+                font-size: 17px;
+                color: #717178;
+            }
+        }
+
+        .abdio {
+            background-color: white;
+            border-radius: 0 0 20px 20px;
+
+            h3 {
+                font-size: 32px;
+                font-weight: 700;
+            }
+            h3 span {
+                font-size: 32px;
+                font-weight: 700;
+                color: #3a337c;
+            }
+
+            ul {
+                margin: 50px 0;
+                list-style-type: none;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            ul .alfa,
+            ul .bita,
+            ul .gamma {
+                display: flex;
+                flex-direction: column;
+                margin: 20px;
+            }
+
+            .alfa div,
+            .bita div,
+            .gamma div {
+                border-radius: 100%;
+                background-color: #ebe9fb;
+                width: 67px;
+                height: 67px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 30px;
+            }
+
+            .alfa div img,
+            .bita div img,
+            .gamma div img {
+                width: 37px;
+                height: 30px;
+            }
+            .alfa h4,
+            .bita h4,
+            .gamma h4 {
+                color: #3a337c;
+                font-size: 18px;
+                font-weight: 600;
+                text-align: center;
+            }
+
+            .alfa p,
+            .bita p,
+            .gamma p {
+                font-size: 17px;
+                font-weight: 400;
+                color: #717178;
+                text-align: center;
+            }
+        }
+    }
+}

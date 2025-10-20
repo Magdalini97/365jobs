@@ -1,0 +1,177 @@
+.positionsblade {
+    background-color: white;
+
+    margin-top: 130px;
+
+    .positions {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .positions h2 {
+        font-size: 80px;
+        font-weight: 700;
+    }
+
+    .positions p {
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+        color: #717178;
+        max-width: 700px;
+    }
+    .item {
+        align-items: start;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #9898a1;
+        border-radius: 20px;
+        padding: 25px;
+        margin-top: 15px;
+    }
+
+    .eikonaki {
+        width: 62.5px;
+        height: 62.5px;
+        border: 2px solid #3a337c;
+        background-color: #f6f6ff;
+        border-radius: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    h5 {
+        font-size: 26px;
+        font-weight: 600;
+        color: #3a337c;
+        margin: 20px 0;
+    }
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        position: relative;
+        padding: 0;
+    }
+
+    ul li {
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: black;
+    }
+    ul li::before {
+        content: ">";
+        font-size: 25px;
+        color: #3a337c;
+        position: static;
+        margin-right: 10px;
+    }
+
+    @media (max-width: 576px) {
+        .positions h2 {
+            font-size: 40px;
+            text-align: center;
+        }
+        .positions p {
+            font-size: 17px;
+            text-align: center;
+        }
+        .row {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .grid-item {
+            border: 1px solid #9898a1;
+            min-width: 450px;
+            border-radius: 20px;
+            display: flex;
+        }
+        .eikonaki {
+            width: 62.5px;
+            height: 62.5px;
+            border: 2px solid #3a337c;
+            background-color: #f6f6ff;
+            border-radius: 100%;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+
+        h5 {
+            font-size: 26px;
+            font-weight: 600;
+            color: #3a337c;
+            margin: 20px 0;
+        }
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            position: relative;
+        }
+
+        ul li {
+            position: relative;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        ul li::before {
+            content: ">";
+            font-size: 25px;
+            color: #3a337c;
+            position: static;
+            margin-right: 10px;
+        }
+    }
+}
+
+.hpente {
+    .applicants {
+        height: 600px;
+        background-color: #3a337c;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        gap: 10px;
+    }
+
+    .appllicants h1 {
+        font-weight: 700;
+        font-size: 55px;
+        width: 670px;
+        height: 67px;
+    }
+
+    .appllicants p {
+        font-weight: 400;
+        font-size: 17px;
+        margin-top: 10px;
+    }
+
+    .getstarted {
+        background-color: white;
+        color: #3a337c;
+        min-width: 300px;
+    }
+
+    @media (max-width: 576px) {
+        margin: 0;
+        padding: 0;
+    }
+}

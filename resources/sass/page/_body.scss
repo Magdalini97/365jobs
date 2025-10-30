@@ -13,11 +13,6 @@ body {
     --bs-gutter-y: 0;
 }
 
-
-.paragraph{
-    max-width:665px;
-}
-
 .page-title {
     font-weight: 700;
     font-size: 80px;
@@ -77,6 +72,7 @@ span {
     margin-top:195px;
     flex: 0 0 790px;
     position: relative;
+    max-width:665px;
 }
 
 .btns {
@@ -84,6 +80,8 @@ span {
     display: flex;
     gap: 15px; 
 }
+
+
 
 .hero {
     position: relative;
@@ -108,7 +106,8 @@ span {
         flex: 1;
         width: 100%;
         height: auto;
-    }    
+    } 
+    
 }
 
 .hena {
@@ -271,7 +270,7 @@ span {
         pointer-events: none;
     }
     .primary-btn {
-        margin-top: 65px;
+        margin-top: 565px;
         min-width: 205px;
         margin-inline:auto ;
     }
@@ -331,7 +330,7 @@ span {
         flex-direction: row;
         justify-content: space-between;
     }
-
+    
     .bar {
         border-radius: 62px;
         background-color: white;
@@ -360,10 +359,16 @@ span {
     .bar .one {
         background-color: #3a337c;
         color: white;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
     }
     .bar .two {
         background: white;
         color: #3a337c;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
     }
 
     .bar button:hover {
@@ -385,8 +390,8 @@ span {
         margin-bottom: 10px;
     }
 
-    .velari,
-    .veldex {
+    .right-sign,
+    .left-sign {
         border: 2px solid #7c74c7;
         background-color: #f9f8fc;
         width: 55px;
@@ -397,12 +402,12 @@ span {
         justify-content: center;
     }
 
-    .velakiena {
+    .right-one {
         transform: rotate(180deg);
     }
 
-    .velakiena img,
-    .velakidio img {
+    .right-one img,
+    .left-one img {
         color: #3a337c;
         width: 22px;
         height: 16px;
@@ -414,10 +419,11 @@ span {
     .svg button[aria-disabled="true"] {
         pointer-events: none;
         opacity: 0.5;
-        cursor: default;
+        cursor: pointer;
     }
 
-    .swiper-slide {
+    .swiper-slide,
+    .swiper-slide-one {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -435,7 +441,7 @@ span {
     .html-content {
         max-width: 490px;
         display:flex;
-        margin-bottom:20px;
+        margin-block:20px;
      
     }
     
@@ -452,28 +458,28 @@ span {
         border-radius: 100%;
         object-fit: cover;
     }
-    .recru .mikro,
-    .recru .mesaio,
-    .recru .megalo {
-        background-color: #7c74c7;
+    .small,
+    .medium,
+    .large {
+        background-color: #3A337C;
         border-radius: 100%;
     }
 
-    .mikro {
+    .small {
         position: absolute;
         width: 53px;
         height: 53px;
-        top: 450px;
-        left: 0px;
+        top: 400px;
+        left: -60px;
     }
-    .mesaio {
+    .medium {
         position: absolute;
         width: 71px;
         height: 71px;
         top: 15px;
         left: 60px;
     }
-    .megalo {
+    .large {
         position: absolute;
         width: 115px;
         height: 115px;
@@ -481,42 +487,10 @@ span {
         right: 50px;
     }
 
-   
-    .recru1 img {
-        width: 463px;
-        height: 463px;
-        border-radius: 100%;
-        display: block;
-        position: relative;
+    .swiper-slide-one{
+        display:none;
     }
 
-    .recru1 div {
-        border: 1px solid #7c74c7;
-        border-radius: 100%;
-        background-color: #7c74c7;
-    }
-
-    .recru1 .mikro {
-        position: absolute;
-        width: 53px;
-        height: 53px;
-        bottom: 25px;
-        left: 350px;
-    }
-    .recru1 .mesaio {
-        position: absolute;
-        width: 71px;
-        height: 71px;
-        top: 30px;
-        left: 380px;
-    }
-    .recru1 .megalo {
-        position: absolute;
-        width: 115px;
-        height: 115px;
-        bottom: 15px;
-        left: 0px;
-    }
 }
 
 .htessera {
@@ -531,26 +505,6 @@ span {
         margin-top: 5px;
     }
 
-  
-    /*.all-news {
-        min-width: 205px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #3a337c;
-        color: white;
-        text-align: center;
-        font-size: 15px;
-        border-radius: 28px;
-        border: none;
-        max-height: 55px;
-        padding: 20px;
-        margin-top: 60px;
-    }
-    .all-news:hover {
-        background-color: #3a337c;
-        opacity: 0.5;
-    }*/
     .news-list{
         display: flex;
         flex-direction: column;
@@ -583,7 +537,8 @@ span {
     }
  
     .primary-btn {
-        margin: 60px auto;
+        margin-inline: auto;
+        margin-top: 60px;
     }
   
     .news-info h4:hover {
@@ -638,8 +593,9 @@ span {
 }
 
 .hpente {
-    margin-top: 150px;
+    padding-top: 150px;
     .col {
+        padding-block: 185px;
         background-color: #3a337c;
         border-radius: 20px;
         display: flex;
@@ -647,7 +603,6 @@ span {
         align-items: center;
         justify-content: center;
         text-align: center;
-       
     }
 
     .section-title {
@@ -659,6 +614,7 @@ span {
     .html-content p{
         color: white;
         margin-top:15px;
+        text-align: center;
     }
 
     .primary-btn{

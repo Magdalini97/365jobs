@@ -6,8 +6,10 @@
        <div class="shero">
             <div class="container">
                 <div class="paragraph">
-                    <h1 class="page-title">Services</h1>
-                    <div class="html-content">
+                    <div data-aos="fade-right">
+                       <h1 class="page-title">Services</h1>
+                    </div>
+                    <div data-aos="fade-left" class="html-content">
                         <p>Research, recruiting and outplacement services</p>
                     </div>
                     <div class="btns">
@@ -37,8 +39,8 @@
                 </div>                                  
             
                 <div class="selection">
-                    <a href="#"><img src="/_365jobs/images/Line 3.png" alt="png">Recruitment solutions</a>
-                    <a href="#"><img src="/_365jobs/images/Line 3.png" alt="png">Support in the recruitment process of non-EU nationals</a>
+                    <a href="#"><span><img src="/_365jobs/images/Line 3.png" alt="png"></span>Recruitment solutions</a>
+                    <a href="#"><span><img src="/_365jobs/images/Line 3.png" alt="png"></span>Support in the recruitment process of non-EU nationals</a>
 
                 </div>
                 
@@ -52,7 +54,7 @@
                 <div class="row">
                     <div class="col-4 offset-1 d-flex align-items-center">
                         <div class="recru-solutions">
-                            <h2 class="services-section-title">Recruitment solutions</h2>
+                            <h3 class="services-section-title">Recruitment solutions</h3>
                             <div class="html-content">
                                 <p>We offer tailored workforce solutions for your business
                                     in different sectors to create a strong match between your business
@@ -93,7 +95,7 @@
 
                     <div class="col-4 offset-1">
                         <div class="recru-solutions">
-                            <h2 class="services-section-title">Support in the recruitment process of non-EU nationals</h2>
+                            <h3 class="services-section-title">Support in the recruitment process of non-EU nationals</h3>
                             <div class="html-content">
                                 <p>Finding a job in the EU is very challenging for many non-EU citizens.
                                     Mastering the labor market and complying with various legal

@@ -2,7 +2,7 @@
     <div class="container">
         <a href="#" title="news-list" class="news-list">
             <div class="news-info">
-                <h4> Employees and Employers Can Thrive With a
+                <h4>How Employees and Employers Can Thrive With a
                     4-Day Workweek
                 </h4>
                 <div class="click-info">
@@ -17,7 +17,7 @@
 
         <a href="#" title="news-list" class="news-list">
             <div class="news-info">
-                <h4> Employees and Employers Can Thrive With a
+                <h4>How Employees and Employers Can Thrive With a
                     4-Day Workweek
                 </h4>
                 <div class="click-info">
@@ -32,8 +32,8 @@
 
         <a href="#" title="news-list" class="news-list">
             <div class="news-info">
-                <h4> Employees and Employers Can Thrive With a
-                    4-Day Workweek
+                <h4>How Employees and Employers Can Thrive With a
+                   4-Day Workweek
                 </h4>
                 <div class="click-info">
                     <div class="circle-btn"><img src="/_365jobs/images/vel.png" alt="svg"></div>
@@ -47,8 +47,8 @@
 
         <a href="#" title="news-list" class="news-list">
             <div class="news-info">
-                <h4> Employees and Employers Can Thrive With a
-                    4-Day Workweek
+                <h4>How Employees and Employers Can Thrive With a
+                   4-Day Workweek
                 </h4>
                 <div class="click-info">
                     <div class="circle-btn"><img src="/_365jobs/images/vel.png" alt="svg"></div>

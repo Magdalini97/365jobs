@@ -2,10 +2,17 @@ import Swiper from "swiper";
 import { Navigation} from "swiper/modules";
 import "swiper/css";
 import Masonry from "masonry-layout";
+import AOS from "aos";
+
+
+AOS.init({
+    duration:1200,
+});
+
 
 let positionSwiper;
 let servicesSwiper;
-const DESKTOP_MIN = 576;
+const DESKTOP_MIN = 992;
 
 if (window.innerWidth >= DESKTOP_MIN) {
     positionSwiper = new Swiper(".positions-swiper", {
@@ -17,9 +24,9 @@ if (window.innerWidth >= DESKTOP_MIN) {
         breakpoints: {
             0: {
                 slidesPerView: 1,
-                spaceBetween: 0,
+                spaceBetween: 20,
             },
-            576: {
+            992: {
                 slidesPerView: 4,
                 spaceBetween: 40,
             },
@@ -34,20 +41,20 @@ if (window.innerWidth >= DESKTOP_MIN) {
         spaceBetween: 0,
 
         navigation: {
-            nextEl: ".veldex",
-            prevEl: ".velari",
+            nextEl: ".right-sign",
+            prevEl: ".left-sign",
         },
     });
-    servicesSwiper = new Swiper(".services-swiper", {
+    /*servicesSwiper = new Swiper(".services-swiper", {
         modules: [Navigation],
         slidesPerView: 1,
         spaceBetween: 0,
 
         navigation: {
-            nextEl: ".veldex",
-            prevEl: ".velari",
+            nextEl: ".right-sign",
+            prevEl: ".left-sign",
         },
-    });
+    });*/
 
     document.querySelector(".bar .one").addEventListener("click", () => {
         servicesSwiper.slideTo(0);
@@ -67,11 +74,6 @@ document.querySelectorAll(".bar button").forEach((btn) => {
     });
 });
 
-/*var elem = document.querySelector(".grid");
-var msnry = new Masonry(elem, {
-    itemSelector: ".grid-item",
-    gutter: 15,
-});*/
 
 document.querySelector("#icon").addEventListener("click", toggleNav);
 function toggleNav() {
@@ -79,6 +81,17 @@ function toggleNav() {
     x.classList.toggle("responsive");
 }
 
+
+
+
+const grid = document.querySelector(".row");
+  if (grid) {
+    new Masonry(grid, {
+      itemSelector: ".col-4",
+      percentPosition: true,
+      gutter: 40
+    });
+  }
 
 /*document.querySelectorAll('.scroll-to-form').forEach((item) => {
     item.addEventListener("click", (e) => {

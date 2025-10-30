@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     @vite([
         'resources/sass/app.scss',
-        'resources/sass/mobile.scss',
         'resources/js/app.js'
     ])
 

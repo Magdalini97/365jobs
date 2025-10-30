@@ -5,17 +5,21 @@
         <div class="hero">
             <div class="container">
                 <div class="paragraph">
-                    <h1 class="page-title">Let's build your team <span>together</span></h1>
-                    <div class="html-content">
-                        <p>Our aim is to make the job market accessible to everyone,
-                            where each individual and all companies have equal access to opportunities.
-                            Let us support your hiring process in what we do best, by finding you the best match.
-                            We handle the task of searching and recruiting people for businesses,
-                            ensuring a smooth recruitment process
-                            regardless of whether you are looking for qualified candidates from different countries or
-                            you are a third country national looking for work in Greece.
-                            Contact us today and find out more about our services.
-                        </p>
+                    <div data-aos="fade-right">
+                       <h1 class="page-title">Let's build your team <span>together</span></h1>
+                    </div>
+                    <div data-aos="fade-left">
+                        <div class="html-content">
+                           <p>Our aim is to make the job market accessible to everyone,
+                               where each individual and all companies have equal access to opportunities.
+                               Let us support your hiring process in what we do best, by finding you the best match.
+                               We handle the task of searching and recruiting people for businesses,
+                               ensuring a smooth recruitment process
+                               regardless of whether you are looking for qualified candidates from different countries or
+                               you are a third country national looking for work in Greece.<br>
+                               Contact us today and find out more about our services.
+                            </p>
+                        </div>    
                     </div>
                     <div class="btns">
                         <a href="#" title="em" class="primary-btn employer">I am an employer</a>
@@ -31,7 +35,9 @@
 
         <div class="hena">
             <div class="position">
-                <a class="section-title" href="#" title="positions">Positions</a>
+                <div data-aos="fade-down">
+                   <a class="section-title" href="#" title="positions">Positions</a>
+                </div>   
                 <div class="html-content">
                     <p>Cross-country recruitment gives businesses
                         a flexible solution to fill existing labor
@@ -176,8 +182,6 @@
                                 </div>
                             </div>
 
-
-
                             <div class="swiper-slide">
 
                                 <div class="category">
@@ -194,8 +198,6 @@
                                     </a>
                                 </div>
 
-
-
                                 <a href="#" title="hoverli" class="hoverli">
                                     <ul>
                                         <li><img src="/_365jobs/images/Line 5 Copy 7.png" alt="png">Fishermen</li>
@@ -211,7 +213,6 @@
                                     <div class="viewall"><a href="#" title="view all">View all</a></div>
                                 </a>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -223,15 +224,15 @@
 
         <div class="hdio">
             <div class="container">
-                <div class="row">
-                    <div class="col-5">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-5 order-2 order-lg-1">
                         <div class="about">
                             <img src="/_365jobs/images/profession.png" alt="png">
                         </div>
                     </div>
 
 
-                    <div class="col-6 offset-1">
+                    <div class="col-12 col-lg-6 offset-lg-1 order-1 order-lg-2">
                         <div class="aboutus-content">
                             <a class="small-title" href="/aboutus" title="About us">About us</a>
                             <h2 class="section-title">We connect businesses and<span> job seekers</span></h2>
@@ -260,7 +261,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <a class="section-title" href="/services" title="services">Services</a>
+                       <a class="section-title" href="/services" title="services">Services</a>  
                         <div class="services">
                             <div class="bar">
                                 <button type="button" class="active one">Recruitment<br> solutions</button>
@@ -270,12 +271,12 @@
 
 
                             <div class="svg">
-                                <button class="velari">
-                                    <div class="velakiena"><img src="/_365jobs/images/Path.svg" alt="svg"></div>
+                                <button class="right-sign">
+                                    <div class="right-one"><img src="/_365jobs/images/Path.svg" alt="svg"></div>
                                 </button>
 
-                                <button class="veldex">
-                                    <div class="velakidio"><img src="/_365jobs/images/Path.svg" alt="svg"></div>
+                                <button class="left-sign">
+                                    <div class="left-one"><img src="/_365jobs/images/Path.svg" alt="svg"></div>
                                 </button>
                             </div>
                         </div>
@@ -284,13 +285,14 @@
 
 
                 <div class="row">
-                    <div class="col-10 offset-1">
+                    <div class="col-12 col-lg-10 offset-1">
                         <div class="services-swiper swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="text">
                                         <a class="medium-title" href="#" title="recruitment">Recruitment
-                                            solutions</a>
+                                            solutions
+                                        </a>
                                         <div class="html-content">
                                             <p>We offer tailored workforce solutions for your business in different sectors
                                                 to create a strong match between your business requirements and the
@@ -302,20 +304,19 @@
 
                                     <div class="recru-image">
                                         <img src="/_365jobs/images/recru.png" alt="png">
-                                        <div class="mikro"></div>
-                                        <div class="mesaio"></div>
-                                        <div class="megalo"></div>
+                                        <div class="small"></div>
+                                        <div class="medium"></div>
+                                        <div class="large"></div>
                                     </div>
                                 </div>
-                            </div>
+                            
 
-                            <div class="swiper-slide">
-                                <div class="text">
-                                    <a class="medium-title" href="#" class="recruitment">Support in the
-                                        recruitment<br> process of
-                                        non-EU nationals
-                                    </a>
-                                    <div class="html-content">
+                                <div class="swiper-slide-one">
+                                    <div class="text">
+                                        <a class="medium-title" href="#" class="recruitment">Support in the
+                                           recruitment<br> process of
+                                           non-EU nationals
+                                        </a>
                                         <div class="html-content">
                                             <p>Finding a job in the EU is very challenging for many non-EU citizens.
                                                 Mastering the labor market and complying with various legal and bureaucratic
@@ -326,14 +327,16 @@
                                         </div>
                                     </div>
                                     <a href="#" class="primary-btn">View more</a>
-                                </div>
+                                
 
-                                <div class="recru1">
-                                    <img src="/_365jobs/images/recru.png" alt="png">
-                                    <div class="mikro"></div>
-                                    <div class="mesaio"></div>
-                                    <div class="megalo"></div>
+                                    <div class="recru-image">
+                                        <img src="/_365jobs/images/recru.png" alt="png">
+                                        <div class="small"></div>
+                                        <div class="medium"></div>
+                                        <div class="large"></div>
+                                    </div>    
                                 </div>
+                                <a href="/some-link" class="d-block d-lg-none primary-btn">Our services</a>
                             </div>
                         </div>
                     </div>
@@ -352,7 +355,7 @@
 
                 <a href="#" title="news-list" class="news-list">
                         <div class="news-info">
-                            <h4> Employees and Employers Can Thrive With a
+                            <h4>How Employees and Employers Can Thrive With a
                                 4-Day Workweek
                             </h4> 
                             <div class="click-info">
@@ -368,12 +371,12 @@
 
                 <a href="#" title="news-list" class="news-list">
                     <div class="news-info">
-                            <h4> Employees and Employers Can Thrive With a
+                            <h4>How Employees and Employers Can Thrive With a
                                 4-Day Workweek
                             </h4> 
                             <div class="click-info">
                                 <div class="circle-btn"><img src="/_365jobs/images/vel.png" alt="svg"></div>
-                                <div class="circle-btn-blue"><img src="/_365jobs/images/velaspro.png" alt="svg"></div> 
+                                 <div class="circle-btn-blue"><img src="/_365jobs/images/velaspro.png" alt="svg"></div> 
                             </div>
                     </div>
                     <div class="html-content"> 
@@ -383,7 +386,7 @@
 
                 <a href="#" title="news-list" class="news-list">
                   <div class="news-info">
-                            <h4> Employees and Employers Can Thrive With a
+                            <h4>How Employees and Employers Can Thrive With a
                                 4-Day Workweek
                             </h4> 
                             <div class="click-info">
@@ -399,7 +402,7 @@
                 <a href="#" title="news-list" class="news-list">
             
                     <div class="news-info">
-                            <h4> Employees and Employers Can Thrive With a
+                            <h4>How Employees and Employers Can Thrive With a
                                 4-Day Workweek
                             </h4> 
                             <div class="click-info">

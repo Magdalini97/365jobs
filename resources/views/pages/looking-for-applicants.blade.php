@@ -33,7 +33,6 @@
 
     <div class="looking-for-applicants-2" style="display:none;">
         <div class="container">
-            <div class="row">
                 <div class="col-6 ">
                     <form name="forma-step1" action=""  method="post">
                         <div class="staff">

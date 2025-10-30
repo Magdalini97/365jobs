@@ -1,27 +1,29 @@
 .positionsblade {
     background-color: white;
+    padding-top: 170px;
+  
 
-    margin-top: 130px;
-
-    .positions {
+    .position-wrapper {
         display: flex;
         align-items: center;
         flex-direction: column;
         justify-content: center;
+
+        .html-content{
+            text-align: center;
+            max-width: 715px;
+            margin-top: 20px;
+            margin-bottom: 85px;
+        }
+    }
+    .row.custom-gutter{
+        --bs-gutter-x:40px;
     }
 
-    .positions h2 {
-        font-size: 80px;
-        font-weight: 700;
+    .col-4 {
+       margin-bottom: 40px;
     }
 
-    .positions p {
-        font-size: 17px;
-        font-weight: 400;
-        text-align: center;
-        color: #717178;
-        max-width: 700px;
-    }
     .item {
         align-items: start;
         justify-content: center;
@@ -29,51 +31,59 @@
         flex-direction: column;
         border: 1px solid #9898a1;
         border-radius: 20px;
-        padding: 25px;
-        margin-top: 15px;
-    }
+        padding: 40px;
+        
+   
+    
+        
+       .logo-image {
+            display: flex;                
+            justify-content: center;         
+            align-items: center;               
+            width: 100px;
+            height: 100px;
+            max-width: 62.5px;
+            max-height: 62.5px;
+            border: 2px solid #3a337c;
+            background-color: #f6f6ff;
+            border-radius: 100%;
+            
+            img{
+                display: block;
+                height: auto;       
+            }
+        }
 
-    .eikonaki {
-        width: 62.5px;
-        height: 62.5px;
-        border: 2px solid #3a337c;
-        background-color: #f6f6ff;
-        border-radius: 100%;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-    }
+        h5 {
+            font-size: 26px;
+            font-weight: 600;
+            color: #3a337c;
+            margin: 25px 0;
+        }
 
-    h5 {
-        font-size: 26px;
-        font-weight: 600;
-        color: #3a337c;
-        margin: 20px 0;
-    }
+        ul {
+           list-style-type: none;
+           display: flex;
+           flex-direction: column;
+           position: relative;
+           margin: 15px 0;
+        }
 
-    ul {
-        list-style-type: none;
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-        position: relative;
-        padding: 0;
-    }
-
-    ul li {
-        position: relative;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        color: black;
-    }
-    ul li::before {
-        content: ">";
-        font-size: 25px;
-        color: #3a337c;
-        position: static;
-        margin-right: 10px;
-    }
+        ul li {
+           position: relative;
+           color: black;
+           font-size: 17px;
+           line-height: 42px;
+           font-weight: 300;
+        }
+        ul li::before {
+            content: ">";
+            font-size: 25px;
+            color: #3a337c;
+            position: static;
+            margin-right: 25px;
+        }
+    }    
 
     @media (max-width: 576px) {
         .positions h2 {
@@ -135,43 +145,44 @@
             margin-right: 10px;
         }
     }
-}
 
-.hpente {
-    .applicants {
-        height: 600px;
-        background-color: #3a337c;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        text-align: justify;
-        align-items: center;
-        justify-content: center;
-        border-radius: 20px;
-        gap: 10px;
-    }
 
-    .appllicants h1 {
-        font-weight: 700;
-        font-size: 55px;
-        width: 670px;
-        height: 67px;
-    }
+    .hpente {
+       padding-bottom: 110px;
+       .col {
+           padding-block: 185px;
+           background-color: #3a337c;
+           border-radius: 20px;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: center;
+           text-align: center;
+        }
 
-    .appllicants p {
-        font-weight: 400;
-        font-size: 17px;
-        margin-top: 10px;
-    }
+        .section-title {
+          color: white;
+          margin: 0;
+          padding: 0;
+        }
 
-    .getstarted {
-        background-color: white;
-        color: #3a337c;
-        min-width: 300px;
-    }
+        .html-content p{
+           color: white;
+           margin-top:15px;
+           text-align: center;
+        }
 
-    @media (max-width: 576px) {
-        margin: 0;
-        padding: 0;
-    }
+        .primary-btn{
+           min-width: 220px;
+           background:white;
+           color: #3a337c;
+           margin-top: 35px;
+           margin-inline:auto;
+        }
+        .primary-btn:hover{
+           border:1px solid #7c74c7;
+           color: white;
+           background-color: #3a337c;
+        }
+    }   
 }

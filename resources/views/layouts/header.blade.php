@@ -20,7 +20,7 @@
                         <a href="#" title="er" class="ctab lookjob">Looking for a job</a>
                     </div>
                 </div>
-                <a href="" class="primary-btn">I am an employer</a>
+                <a href="/looking-for-applicants-teliko" class="primary-btn">I am an employer</a>
                 {{-- <a href="/looking-for-applicants-teliko" title="er" class="ctab">I am an employer</a>
                 <a href="/looking-for-applicants-teliko" title="er" class="bitn">I am an employer</a> --}}
 

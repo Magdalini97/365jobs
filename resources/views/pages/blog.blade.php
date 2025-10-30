@@ -7,7 +7,7 @@
             <div class="container" >
                 <div class="row">
                     <div class="col-10 offset-1">
-                        <h1 class="page-title">News<br> & Articles</h1>
+                        <h1 data-aos="fade-right" class="page-title">News<br> & Articles</h1>
                         <div class="element">
                             <div class="circle-div">
                                 <div class="small"></div>

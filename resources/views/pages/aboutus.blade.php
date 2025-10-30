@@ -6,8 +6,10 @@
     <div class="abhero">
         <div class="container">
             <div class="paragraph">
-                <h1 class="page-title">About 365 Jobs</h1>
-                <div class="html-content">
+                <div data-aos="fade-right">
+                   <h1 class="page-title">About 365 Jobs</h1>
+                </div>   
+                <div data-aos="fade-left" class="html-content">
                     <p>Recruiting solutions: Find the right job ad for your
                         hiring needs and budget
                     </p>

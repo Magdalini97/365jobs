@@ -1,45 +1,24 @@
 .categorypageblade {
+    background-color: white;
     .chero {
-        margin-top: 150px;
-        padding-block: 50px;
+        background-color: #F9F8FC;
 
-        .fish {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
+        .paragraph {
+            margin-top: 270px;
         }
-        .fish h1 {
-            font-size: 55px;
-            font-weight: 700;
+        .html-content{
+            margin-top: 20px;
         }
-        .fish p {
-            font-size: 17px;
-            font-weight: 400;
-            color: #717178;
+        .btns{
+            padding-top: 40px;
         }
 
-        .bts {
-            display: flex;
-        }
-        .bts .em {
-            background-color: #7c74c7;
+        .double-image {
+            margin-top: 135px;
+            margin-bottom: 50px;
         }
 
-        .bts .can {
-            background-color: #f9f8fc;
-            color: #7c74c7;
-            border: 1px solid #7c74c7;
-            margin-left: 10px;
-        }
-
-        .eiko {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: end;
-        }
-
-        .eikonitsa {
+        .span-image {
             margin-left: 40px;
             border-radius: 100%;
             background-color: #ebe9fb;
@@ -49,7 +28,7 @@
             padding-right: 10px;
         }
 
-        .eikonitsa img {
+        .span-image img {
             position: absolute;
             right: 10px;
             width: 556px;
@@ -57,7 +36,7 @@
             border-radius: 100%;
         }
 
-        .eikonitsa .mikro {
+        .span-image .small {
             border: 1px solid #7c74c7;
             border-radius: 100%;
             background-color: #7c74c7;
@@ -68,7 +47,7 @@
             left: 10px;
         }
 
-        .eikonitsa .mesaio {
+        .span-image .medium {
             border: 1px solid #7c74c7;
             border-radius: 100%;
             background-color: #7c74c7;
@@ -81,58 +60,48 @@
     }
 
     .cena {
-        padding-block: 140px;
+        padding-block: 135px;
         background-color: #ebe9fb;
         border-radius: 0 0 50px 50px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
 
-        .provide {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
+        .paragraph{
+            margin: 0;
+            max-width:800px;
 
-        .provide h3 {
-            font-size: 55px;
-            font-weight: 700;
-        }
-        .provide h3 span {
-            font-size: 55px;
-            font-weight: 700;
-            color: #3a337c;
-        }
-        .provide p {
-            font-size: 17px;
-            font-weight: 400;
-            color: #717178;
-        }
-        .btns {
-            display: none;
-        }
+            .section-title{
+                line-height: 60px;
+            }
 
-        .btns .em,
-        .btns .can {
-            margin-top: 10px;
-        }
+            .html-content{
+                margin-top: 20px;
+                max-width: 590px;
+            }
 
-        .btns .bt {
-            display: none;
+            .btns{
+                margin-top: 10px;
+            }
         }
-
+        
+        .providelist{
+            max-width: 385px;
+            min-height: 255px;
+            padding-block: 25px;
+            margin-right: 210px;
+        }
+      
         .providelist ul {
             list-style-type: none;
-            padding: 10px;
             display: flex;
             flex-direction: column;
         }
 
-        .providelist ul li {
-            padding-left: 20px;
+        .providelist ul li {   
             position: relative;
             display: flex;
             align-items: center;
+            gap:25px;
+            
+            line-height: 42px;
         }
 
         .providelist ul li::before {
@@ -140,41 +109,26 @@
             font-size: 25px;
             color: #3a337c;
             position: static;
-            margin-right: 10px;
         }
     }
 
     .hena {
-        padding-top: 50px;
-        background-color: white;
-        height: auto;
-
+        margin-top: 110px;
         .position {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            margin-bottom: 15px;
+            margin-bottom: 60px;
         }
 
-        .pos a {
-            text-decoration: none;
-            font-size: 55px;
-            font-weight: 700;
-            color: black;
+        .section-title {
+            margin-inline: auto;
+        }
+        .html-content {
+            max-width: 895px;
             margin-top: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .pos p {
-            max-width: 770px;
-            margin: 0;
             text-align: center;
-            font-weight: 400;
-            font-size: 17px;
-            color: #717178;
         }
 
         .swiper-slide {
@@ -183,22 +137,17 @@
 
         .swiper-slide:nth-child(odd) {
             margin-top: 40px;
+            border-radius: 20px;
         }
 
         .category {
             position: relative;
-
-            height: auto;
             border-radius: 20px;
-        }
-        .carta {
-            width: 338px;
-            height: 453px;
-            border-radius: 20px;
-        }
-
-        .carta img {
             max-width: 100%;
+        }
+
+        a img {
+            width: 100%;
             height: auto;
             aspect-ratio: 338/453;
             border-radius: 20px;
@@ -208,14 +157,24 @@
         }
 
         .overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: #1f1b40;
-            opacity: 23.68%;
-            border-radius: 20px;
+           position: absolute;
+           top: 0;
+           left: 0;
+           width: 100%;
+           height: 100%;
+           background: #1f1b40;
+           opacity: 23.68%;
+           border-radius: 20px;
+        }
+
+        .hoverli:hover {
+           opacity: 1;
+           border-radius: 20px;
+        }
+
+        .card img:hover,
+        .granazi:hover {
+            opacity: 0;
         }
 
         .granazi {
@@ -230,35 +189,25 @@
             position: absolute;
             bottom: -20px;
             right: 20px;
-            box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
         }
         .granazi img {
-            width: 34.5px;
-            height: 34px;
+           width: 34.5px;
+           height: 34px;
         }
 
-        .hoverli {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            opacity: 0;
-            transition: opacity 0.5s ease;
-            display: flex;
-            flex-direction: column;
-
-            text-align: justify;
-            border-radius: 20px;
-            background-color: #ebe9fb;
-        }
-
-        .category:hover .hoverli {
-            opacity: 1;
-        }
-        .category:hover .card img,
-        .category:hover .granazi {
-            opacity: 0;
+       .hoverli {
+           position: absolute;
+           top: 0;
+           left: 0;
+           width: 100%;
+           min-height: 458px;
+           opacity: 0;
+           transition: opacity 0.5s ease;
+           display: flex;
+           flex-direction: column;
+           text-align: justify;
+           border-radius: 20px;
+           background-color: #ebe9fb;
         }
 
         .slide-label p {
@@ -268,88 +217,105 @@
             color: white;
             font-size: 24px;
             font-weight: 600;
+            line-height: 100%;
         }
 
         .hoverli ul {
             list-style: none;
-            padding: 60px 30px;
+            margin: 60px 35px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
         }
 
         .hoverli ul li {
-            position: relative;
-            padding-left: 20px;
-            margin: 10px 0;
-            font-size: 17px;
-            color: #3a337c;
+           display: inline-flex;
+           flex-direction: row;
+           margin: 5px 0;
+           gap:25px;
+           font-size: 17px;
+           font-weight: 300;
+           color: #3a337c;
         }
 
-        .hoverli ul li::before {
-            content: ">";
-            position: absolute;
-            left: 0;
-            color: #3a337c;
-            font-size: 16px;
+        .hoverli ul li img {
+           width: 100%;
+           max-width: 6.85px;
+           max-height: 10px;
+           margin: 10px 0;
         }
 
-        .hoverli a {
-            padding: 30px;
-            font-size: 18px;
-
-            color: #3a337c;
-            text-decoration-line: underline;
-            text-decoration-color: #3a337c;
-            text-underline-offset: 4px;
+        .viewall a {
+           padding: 30px;
+           font-size: 18px;
+           color: #3a337c;
+           text-decoration-line: underline;
+           text-decoration-color: #3a337c;
+           text-underline-offset: 4px;
+           position: absolute;
+           top:330px;
+           left: 5px;
+           opacity: 0;
+           pointer-events: none;
         }
 
-        .b-all {
-            margin-top: 50px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        .hoverli:hover ~ .viewall {
+           opacity: 1;
+           transition: opacity 0.5s ease;
         }
-        .all {
-            width: 250px;
+
+        .hoverli:hover ~ .viewall a {
+            transition: opacity 0.5s ease;
+            opacity: 1;
+            pointer-events: none;
+        }
+        .primary-btn {
+            margin-top: 60px;
+            min-width: 205px;
+            margin-inline:auto ;
         }
     }
 
     .hpente {
-        height: 910px;
-        padding-bottom: 50px;
-        background-color: white;
-        border-radius: 0 0 50px 50px;
-        .applicants {
-            margin-top: 150px;
-            height: 600px;
+        margin-top: 150px;
+        .col {
+            padding-block: 185px;
             background-color: #3a337c;
-            color: white;
+            border-radius: 20px;
             display: flex;
             flex-direction: column;
-            text-align: justify;
             align-items: center;
             justify-content: center;
-            border-radius: 20px;
-            gap: 10px;
+            text-align: center;
         }
 
-        .appllicants h1 {
-            font-weight: 700;
-            font-size: 55px;
-            width: 670px;
-            height: 67px;
+        .section-title {
+            color: white;
+            margin: 0;
+            padding: 0;
         }
 
-        .appllicants p {
-            font-weight: 400;
-            font-size: 17px;
-            margin-top: 10px;
+        .html-content p{
+            color: white;
+            margin-top:15px;
+            text-align: center;
         }
 
-        .getstarted {
-            background-color: white;
-            color: #3a337c;
-            min-width: 300px;
+        .primary-btn{
+           min-width: 220px;
+           background:white;
+           color: #3a337c;
+           margin-top: 35px;
+           margin-inline:auto;
+
         }
+        .primary-btn:hover{
+            border:1px solid #7c74c7;
+            color: white;
+            background-color: #3a337c;
+        } 
     }
+
 
     @media (max-width: 576px) {
         .chero {

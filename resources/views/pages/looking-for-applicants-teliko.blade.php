@@ -8,29 +8,30 @@
                 <div class="col">
                     <form action="" method="POST">
                         <div class="looking-for-applicants-1">
-                            <div class="staff">
                                 <h1 class="page-title">What Staff do you need?</h1>
 
-                                <div class="input-wrapper d-flex align-items-center justify-content-center">
-                                    <label for="search" class="search"></label>
-                                    <input type="text" name="search" placeholder="search">
-                                    <div class="job-list">
-                                        <ul>
-                                            <li class="scroll-to-form"><a href="#">Fishermen <span>></span></a></li>
-                                            <li class="scroll-to-form"><a href="#">Unskilled fishery workers<span>></span></a></li>
-                                            <li class="scroll-to-form"><a href="#">Aquacultural workers <span>></span></a></li>
-                                            <li class="scroll-to-form"><a href="#">Fish farming workers <span>></span></a></li>
-                                            <li class="scroll-to-form"><a href="#">Skippers <span>></span></a></li>
-                                            <li class="scroll-to-form"><a href="#">Shipyard workers <span>></span></a></li>
-                                        </ul>
-                                    </div>
+                                <div class="input-wrapper">
+                                    <div class="html-content">
+                                        <p>Search</p>
+                                    </div>    
+                                    <a href=""><img src="/_365jobs/images/downsign.png.png" alt="png"></a>
                                 </div>
-                            </div>
+                                <div class="job-list">
+                                    <ul>
+                                        <li class="scroll-to-form"><a href="#">Fishermen <img src="/_365jobs/images/downsign.png.png" alt="png"></a></li>
+                                        <li class="scroll-to-form"><a href="#">Unskilled fishery workers<img src="/_365jobs/images/downsign.png.png" alt="png"></a></li>
+                                        <li class="scroll-to-form"><a href="#">Aquacultural workers <img src="/_365jobs/images/downsign.png.png" alt="png"></a></li>
+                                        <li class="scroll-to-form"><a href="#">Fish farming workers <img src="/_365jobs/images/downsign.png.png" alt="png"></a></li>
+                                        <li class="scroll-to-form"><a href="#">Skippers <img src="/_365jobs/images/downsign.png.png" alt="png"></a></li>
+                                        <li class="scroll-to-form"><a href="#">Shipyard workers <img src="/_365jobs/images/downsign.png.png" alt="png"></a></li>
+                                    </ul>
+                                </div>
+                         
                         </div>
 
                         <div class="looking-for-applicants-2">
                             <div class="staff">
-                                <h1>What are your contact details?</h1>
+                                <h1 class="page-title">What are your contact details?</h1>
 
                                 <div class="input-wrapper">
                                     <div class="for">
@@ -49,16 +50,19 @@
                                 </div>
 
 
-                                <div class="mpara" >
+                                <div class="bar" >
                                     <div class="progress-bar">
-                                        <div class="miden"></div>
-                                    </div>
-                                    <p>Step 1 of 2</p>
-                                    <div class="vel">
-                                        <a href="#" title="div" class="velos">
-                                            <div class="belos"><</div>
+                                        <div class="line"></div>
+                                   
+                                       <div class="html-content">
+                                          <p>Step 1 of 2</p>
+                                       </div>
+                                    </div>     
+                                    <div class="sign">
+                                        <a href="#" title="div" class="back-sign">
+                                            <img src="/_365jobs/images/downsign.png.png" alt="png">
                                         </a>
-                                        <button type="button" class="ctab next-step">Next</button>
+                                        <button type="button" class="primary-btn next-step">Next</button>
                                     </div>
                                 </div>
                             </div>
@@ -66,34 +70,38 @@
 
                         <div class="looking-for-applicants-3">
                             <div class="staff">
-                                <h1>How can we reach you?</h1>
+                                <h1 class="page-title">How can we reach you?</h1>
+                                <div class="input-wrapper">
 
-                                <div class="for">
-                                    <label for="phone" class="phone"></label>
-                                    <input type="int" required name="phone" id="phone" placeholder="Phone Number">
-                                </div>
+                                    <div class="for">
+                                        <label for="phone" class="phone"></label>
+                                        <input type="int" required name="phone" id="phone" placeholder="Phone Number">
+                                    </div>
 
-                                <div class="for">
-                                    <label for="email" class="email"></label>
-                                    <input type="email" required name="email" id="email" placeholder="Email">
-                                </div>
+                                    <div class="for">
+                                        <label for="email" class="email"></label>
+                                        <input type="email" required name="email" id="email" placeholder="Email">
+                                    </div>
+                                </div>    
 
-                                <div class="form-check mt-3">
+                                <div class="form-check">
                                     <input type="checkbox" required class="form-check-input" id="exampleCheck1">
                                     <label class="form-check-label" for="exampleCheck1"> I agree with <span style="text-decoration: underline;">Terms of Use</span> and
                                     <span style="text-decoration: underline;"> Privacy Policy </span></label>
                                 </div>
 
-                                <div class="mpara">
+                                <div class="bar" >
                                     <div class="progress-bar">
-                                        <div class="miden"></div>
-                                    </div>
-                                    <p>Step 2 of 2</p>
-                                    <div class="vel">
-                                        <a href="#" title="div" class="velos">
-                                            <div class="belos"><</div>
+                                       <div class="line"></div>
+                                       <div class="html-content">
+                                          <p>Step 2 of 2</p>
+                                       </div>
+                                    </div>     
+                                    <div class="sign">
+                                        <a href="#" title="div" class="back-sign">
+                                            <img src="/_365jobs/images/downsign.png.png" alt="png">
                                         </a>
-                                        <button type="button" class="ctab next-step">Next</button>
+                                        <button type="button" class="primary-btn next-step">Next</button>
                                     </div>
                                 </div>
                             </div>
@@ -101,11 +109,13 @@
 
                         <div class="looking-for-applicants-4">
                             <div class="staff">
-                                <h1>Thank you!</h1>
-                                <p>Hanc ego cum memoriter, tum etiam ac ratione neque disputatione,
-                                    quam nihil ut de homine sensibus reliqui nihil oportere nimium nos amice
-                                    et dolorum effugiendorum gratia ego assentior, cum teneam sententiam.
-                                </p>
+                                <h1 class="page-title">Thank you!</h1>
+                                <div class="html-content">
+                                    <p>Hanc ego cum memoriter, tum etiam ac ratione neque disputatione,
+                                        quam nihil ut de homine sensibus reliqui nihil oportere nimium nos amice
+                                        et dolorum effugiendorum gratia ego assentior, cum teneam sententiam.
+                                    </p>
+                                </div>    
 
                                 <div class="mpara" style="display:none">
                                     <div class="vel">
@@ -175,7 +185,7 @@
         });
 
 
-        document.querySelectorAll('.velos').forEach(backBtn => {
+        document.querySelectorAll('.back-sign').forEach(backBtn => {
             backBtn.addEventListener('click', (e) => {
                 e.preventDefault();
                 if (current > 0) {

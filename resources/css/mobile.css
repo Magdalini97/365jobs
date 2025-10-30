@@ -1,83 +1,63 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap");
 
-/* Globals */
+/*GLOBALS*/
 
-a {
-    text-decoration: unset;
+@media (max-width < 992px) {
+    .container{
+        max-width:480px;
+        padding-inline:18px;
+    }
+   .page-title{
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 50px;
+      color: black;
+    }
+ 
+    span {
+      color: #3a337c;
+    }
+    
+    .html-content{
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 27px;
+        color:#717178;
+        
+    }
+    .section-title{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        color: black;
+    }
+    .medium-title{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        color:#3A337C;
+    }
+    .small-title{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        color:#7C74C7;
+    }
+    h4{
+       font-weight: 400;
+       font-size: 18px;
+       line-height: 28px;
+       color:#3A337C;
+    }
+
+    .paragraph{
+        display: flex;
+        flex-direction: column;
+     
+    }
+
 }
 
-body {
-    margin: 0;
-
-    box-sizing: border-box;
-    font-family: "Manrope", sans-serif;
-    background: #f9f8fc;
-    overflow-x: hidden;
-}
-
-.container {
-    max-width: 1600px;
-    --bs-gutter-x: 0;
-    --bs-gutter-y: 0;
-}
-
-.ctab {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #3a337c;
-    color: white;
-    font-size: 15px;
-    text-align: center;
-    font-weight: 400;
-    border-radius: 28px;
-    border: none;
-    min-width: 221px;
-    max-height: 55px;
-    padding: 20px;
-}
-.get-started .getstarted {
-    min-width: 220px;
-    background-color: white;
-    color: #3a337c;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 15px;
-    border-radius: 28px;
-    border: none;
-}
-
-.btns {
-    display: flex;
-    justify-content: left;
-    gap: 15px;
-}
-
-.btns .em {
-    background-color: #7c74c7;
-    min-width: 220px;
-}
-
-.btns .can {
-    background-color: transparent;
-    color: #7c74c7;
-    border: 1px solid #7c74c7;
-    gap: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.ctab:hover {
-    background-color: #3a337c;
-    opacity: 0.5;
-}
-
-.look {
-    display: none;
-}
 
 /*HEADER, FOOTER*/
 
@@ -394,35 +374,8 @@ body {
 
 /*PAGES*/
 
-@media (max-width: $breakpoint-lg) {
-    .hero {
-        padding: 0;
-        margin: 0;
-        width: 100%;
-        position: relative;
-        overflow: hidden;
-    }
-    .paragraph h1 {
-        font-size: 50px;
-        color: black;
-        font-weight: 700;
-        text-align: left;
-        max-width: 380px;
-    }
-    .paragraph p {
-        font-size: 17px;
-        font-weight: 300;
-        padding: 5px;
-        color: #717178;
-        max-width: 440px;
-        letter-spacing: 1px;
-    }
-    .paragraph {
-        padding-block: 10px;
-        margin-block: 120px;
-        width: 100%;
-        position: relative;
-    }
+@media (max-width: 992px) {
+  
 
     .btns {
         display: flex;
@@ -455,7 +408,7 @@ body {
         color: #d8d8d8;
     }
 
-    .hena {
+  .hena {
         margin: 0;
         padding-block: 0;
         .pos a {
@@ -1037,4 +990,45 @@ body {
             margin-top: 20px;
         }
     }
+}
+
+@media (max-width <992px) {
+   .servicesblade{
+       .shero{
+           border: 1px solid red;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
 }

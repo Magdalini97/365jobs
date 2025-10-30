@@ -81,6 +81,240 @@ body {
 
 
 
+
+
+/* Sections */
+.sdio {
+    background-color: #ebe9fb;
+    border-radius: 0 0 50px 50px;
+    height: 807px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .keimeno {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 600px;
+    }
+
+    .keimeno h1 {
+        font-size: 55px;
+        font-weight: 700;
+    }
+    .keimeno p {
+        font-size: 17px;
+        font-weight: 400;
+        color: #717178;
+    }
+
+    .solutions {
+        position: relative;
+        display: flex;
+        justify-content: left;
+        margin-left: 30px;
+    }
+
+    .solutions img {
+        max-width: 450px;
+        max-height: auto;
+        object-fit: cover;
+        aspect-ratio: 1/1;
+        border-radius: 100%;
+    }
+
+    .solutions div {
+        border: 1px solid #3a337c;
+        border-radius: 100%;
+        background-color: #3a337c;
+    }
+
+    .solutions .mikro {
+        position: absolute;
+        width: 53px;
+        height: 53px;
+        top: 450px;
+        left: 0px;
+    }
+    .solutions .mesaio {
+        position: absolute;
+        width: 71px;
+        height: 71px;
+        top: 15px;
+        left: 60px;
+    }
+    .solutions .megalo {
+        position: absolute;
+        width: 115px;
+        height: 115px;
+        bottom: 15px;
+        right: 70px;
+    }
+}
+
+.stria {
+    background-color: #f9f8fc;
+    border-radius: 0 0 50px 50px;
+    height: 755px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .keimenos {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 650px;
+    }
+    .keimenos h1 {
+        font-size: 55px;
+        font-weight: 700;
+    }
+    .keimenos p {
+        font-size: 17px;
+        font-weight: 400;
+        color: #717178;
+    }
+
+    .solution {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .solution img {
+        width: 463px;
+        height: 463px;
+        border-radius: 100%;
+        display: block;
+        position: relative;
+    }
+
+    .solution div {
+        border: 1px solid #7c74c7;
+        border-radius: 100%;
+        background-color: #7c74c7;
+    }
+
+    .solution .mikro {
+        position: absolute;
+        width: 53px;
+        height: 53px;
+        bottom: 20px;
+        left: 400px;
+    }
+    .solution .mesaio {
+        position: absolute;
+        width: 71px;
+        height: 71px;
+        top: 30px;
+        left: 380px;
+    }
+    .solution .megalo {
+        position: absolute;
+        width: 115px;
+        height: 115px;
+        bottom: 15px;
+        left: 0px;
+    }
+}
+
+
+.hpente {
+    .applicants {
+        margin-top: 150px;
+        height: 600px;
+        background-color: #3a337c;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        gap: 10px;
+    }
+
+    .appllicants h1 {
+        font-weight: 700;
+        font-size: 55px;
+        width: 670px;
+        height: 67px;
+    }
+
+    .appllicants p {
+        font-weight: 400;
+        font-size: 17px;
+        margin-top: 10px;
+    }
+
+    .getstarted {
+        background-color: white;
+        color: #3a337c;
+        min-width: 300px;
+    }
+}
+
+.grid {
+    .grid-item {
+        border: 1px solid #9898a1;
+        border-radius: 20px;
+    }
+
+    .item1,
+    .item2,
+    .item3,
+    .item4,
+    .item5,
+    .item6 {
+        .eikonaki {
+            width: 62.5px;
+            height: 62.5px;
+            border: 2px solid #3a337c;
+            background-color: #f6f6ff;
+            border-radius: 100%;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+
+        h5 {
+            font-size: 26px;
+            font-weight: 600;
+            color: #3a337c;
+            margin: 20px 0;
+        }
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            position: relative;
+        }
+
+        ul li {
+            position: relative;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        ul li::before {
+            content: ">";
+            font-size: 25px;
+            color: #3a337c;
+            position: static;
+            margin-right: 10px;
+        }
+    }
+}
+
+
+/*looking-for-applicants-proxeiro/*
+
+
 .looking-for-applicants {
     margin: 150px 0;
 
@@ -570,716 +804,6 @@ body {
 
         .col-6 {
             min-width: 400px;
-        }
-    }
-}
-
-/* Sections */
-.sdio {
-    background-color: #ebe9fb;
-    border-radius: 0 0 50px 50px;
-    height: 807px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    .keimeno {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        max-width: 600px;
-    }
-
-    .keimeno h1 {
-        font-size: 55px;
-        font-weight: 700;
-    }
-    .keimeno p {
-        font-size: 17px;
-        font-weight: 400;
-        color: #717178;
-    }
-
-    .solutions {
-        position: relative;
-        display: flex;
-        justify-content: left;
-        margin-left: 30px;
-    }
-
-    .solutions img {
-        max-width: 450px;
-        max-height: auto;
-        object-fit: cover;
-        aspect-ratio: 1/1;
-        border-radius: 100%;
-    }
-
-    .solutions div {
-        border: 1px solid #3a337c;
-        border-radius: 100%;
-        background-color: #3a337c;
-    }
-
-    .solutions .mikro {
-        position: absolute;
-        width: 53px;
-        height: 53px;
-        top: 450px;
-        left: 0px;
-    }
-    .solutions .mesaio {
-        position: absolute;
-        width: 71px;
-        height: 71px;
-        top: 15px;
-        left: 60px;
-    }
-    .solutions .megalo {
-        position: absolute;
-        width: 115px;
-        height: 115px;
-        bottom: 15px;
-        right: 70px;
-    }
-}
-
-.stria {
-    background-color: #f9f8fc;
-    border-radius: 0 0 50px 50px;
-    height: 755px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    .keimenos {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        max-width: 650px;
-    }
-    .keimenos h1 {
-        font-size: 55px;
-        font-weight: 700;
-    }
-    .keimenos p {
-        font-size: 17px;
-        font-weight: 400;
-        color: #717178;
-    }
-
-    .solution {
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .solution img {
-        width: 463px;
-        height: 463px;
-        border-radius: 100%;
-        display: block;
-        position: relative;
-    }
-
-    .solution div {
-        border: 1px solid #7c74c7;
-        border-radius: 100%;
-        background-color: #7c74c7;
-    }
-
-    .solution .mikro {
-        position: absolute;
-        width: 53px;
-        height: 53px;
-        bottom: 20px;
-        left: 400px;
-    }
-    .solution .mesaio {
-        position: absolute;
-        width: 71px;
-        height: 71px;
-        top: 30px;
-        left: 380px;
-    }
-    .solution .megalo {
-        position: absolute;
-        width: 115px;
-        height: 115px;
-        bottom: 15px;
-        left: 0px;
-    }
-}
-
-
-.hpente {
-    .applicants {
-        margin-top: 150px;
-        height: 600px;
-        background-color: #3a337c;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        text-align: justify;
-        align-items: center;
-        justify-content: center;
-        border-radius: 20px;
-        gap: 10px;
-    }
-
-    .appllicants h1 {
-        font-weight: 700;
-        font-size: 55px;
-        width: 670px;
-        height: 67px;
-    }
-
-    .appllicants p {
-        font-weight: 400;
-        font-size: 17px;
-        margin-top: 10px;
-    }
-
-    .getstarted {
-        background-color: white;
-        color: #3a337c;
-        min-width: 300px;
-    }
-}
-
-.grid {
-    .grid-item {
-        border: 1px solid #9898a1;
-        border-radius: 20px;
-    }
-
-    .item1,
-    .item2,
-    .item3,
-    .item4,
-    .item5,
-    .item6 {
-        .eikonaki {
-            width: 62.5px;
-            height: 62.5px;
-            border: 2px solid #3a337c;
-            background-color: #f6f6ff;
-            border-radius: 100%;
-            align-items: center;
-            justify-content: center;
-            display: flex;
-        }
-
-        h5 {
-            font-size: 26px;
-            font-weight: 600;
-            color: #3a337c;
-            margin: 20px 0;
-        }
-
-        ul {
-            list-style-type: none;
-            display: flex;
-            flex-direction: column;
-            gap: 5px;
-            position: relative;
-        }
-
-        ul li {
-            position: relative;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        ul li::before {
-            content: ">";
-            font-size: 25px;
-            color: #3a337c;
-            position: static;
-            margin-right: 10px;
-        }
-    }
-}
-
-.looking-for-applicants-teliko {
-    margin: 100px 0;
-    .col {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .looking-for-applicants-1 {
-        margin-top: 50px;
-        .staff h1 {
-            font-size: 80px;
-            font-weight: 700;
-            max-width: 700px;
-            text-align: center;
-        }
-
-        .input-wrapper {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-            flex: 0 1 350px;
-            margin-top: 15px;
-        }
-        .input-wrapper input {
-            min-width: 700px;
-            border: 1px solid white;
-            border-radius: 50px;
-            padding: 20px;
-            display: block;
-        }
-
-        .job-list {
-            min-width: 700px;
-            border: 1px solid white;
-            border-radius: 20px;
-            background: white;
-            display: block;
-            margin-top: 15px;
-        }
-
-        .job-list::-webkit-scrollbar-thumb {
-            background-color: #7c74c7;
-            border-radius: 4px;
-        }
-
-        ul {
-            padding: 25px;
-            max-height: 400px;
-            overflow-y: scroll;
-            width: 100%;
-            scrollbar-color: #3a337c;
-        }
-
-        ul li {
-            list-style-type: none;
-            margin-right: 5px;
-        }
-        ul li a {
-            color: #717178;
-            font-size: 17px;
-            font-weight: 400;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        ul li span {
-            margin-bottom: 10px;
-            color: #3a337c;
-            font-size: 25px;
-        }
-
-        ul li:hover {
-            background-color: #f9f8fc;
-        }
-
-        @media (max-width: 576px) {
-            .staff {
-                display: flex;
-                align-items: center;
-                flex-direction: column;
-            }
-
-            .staff h1 {
-                font-size: 40px;
-                font-weight: 700;
-                max-width: 300px;
-                text-align: center;
-            }
-
-            .input-wrapper input {
-                padding: 30px;
-                min-width: 450px;
-            }
-
-            .input-wrapper .job-list {
-                min-width: 450px;
-                padding-block: 20px;
-            }
-
-            form input {
-                min-width: 450px;
-                border: 1px solid white;
-                border-radius: 50px;
-            }
-        }
-    }
-
-    .looking-for-applicants-2 {
-        margin-top: 50px;
-        .staff h1 {
-            font-size: 80px;
-            font-weight: 700;
-            max-width: 700px;
-            text-align: center;
-        }
-
-        .input-wrapper {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: center;
-
-            margin-top: 15px;
-        }
-        .for {
-            margin-top: 20px;
-            width: 100%;
-            max-width: 700px;
-        }
-
-        .for:first-child {
-            flex: 0 0 48%;
-            display: flex;
-            margin-right: 15px;
-        }
-
-        .for:nth-child(2) {
-            flex: 0 0 48%;
-        }
-
-        .for input {
-            width: 100%;
-            max-width: 700px;
-            border: 1px solid white;
-            border-radius: 50px;
-            padding: 20px;
-            display: block;
-            box-sizing: border-box;
-        }
-        .mpara {
-            margin-top: 50px;
-            padding-top: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            width: 100%;
-            height: auto;
-            position: relative;
-            padding-left: 30px;
-        }
-        .mpara p {
-            position: absolute;
-            bottom: -20px;
-        }
-        .progress-bar {
-            max-width: 300px;
-            height: 4px;
-            border-radius: 50px;
-            background-color: #d8d8dd;
-            overflow: hidden;
-        }
-        .miden {
-            height: 100%;
-            background-color: #7c74c7;
-            width: 50%;
-            display: block;
-        }
-
-        .vel {
-            display: flex;
-            justify-content: right;
-            align-items: center;
-        }
-        .velos {
-            border: 1px solid #3a337c;
-            width: 55px;
-            height: 55px;
-            border-radius: 100%;
-            display: flex;
-            align-items: center;
-            text-align: center;
-            justify-content: center;
-        }
-        .belos {
-            color: #3a337c;
-            font-size: 30px;
-        }
-        .velos:hover {
-            background: #ebe9fb;
-        }
-        .next-step {
-            max-width: 150px;
-            margin-left: 10px;
-        }
-
-        @media (max-width: 576px) {
-            .staff h1 {
-                font-size: 40px;
-                align-items: center;
-                max-width: 400px;
-            }
-
-            .input-wrapper {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                gap: 15px;
-                width: 100%;
-            }
-            form label {
-                max-width: 100%;
-                display: block;
-            }
-
-            .for {
-                width: 100%;
-                max-width: 400px;
-                margin-right: 0;
-            }
-
-            .for input {
-                width: 100%;
-            }
-            .col-6 {
-                width: 100%;
-            }
-            .mpara {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                flex-direction: column;
-                height: auto;
-                position: relative;
-                padding-left: 0;
-            }
-            .mpara p {
-                position: absolute;
-                bottom: 80px;
-                left: 40px;
-            }
-
-            .vel {
-                margin-top: 80px;
-            }
-        }
-    }
-
-    .looking-for-applicants-3 {
-        margin-top: 80px;
-
-        .staff h1 {
-            font-size: 80px;
-            font-weight: 700;
-            max-width: 650px;
-            text-align: center;
-        }
-        .row {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding-top: 10px;
-            margin-bottom: 10px;
-        }
-        .col-6 {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-            margin-top: 5px;
-        }
-        .form-check {
-            display: flex;
-            align-items: center;
-            justify-content: left;
-            gap: 20px;
-        }
-
-        .form-check .form-check-input {
-            border: 1px solid #3a337c;
-            border-radius: 100%;
-            width: 20px;
-            height: 20px;
-        }
-
-        .form-check .form-check-label {
-            color: #3a337c;
-            font-size: 14px;
-            font-weight: 500;
-        }
-
-        .for {
-            margin-top: 20px;
-            width: 100%;
-            max-width: 700px;
-        }
-
-        .for input {
-            width: 100%;
-            max-width: 700px;
-            border: 1px solid white;
-            border-radius: 50px;
-            padding: 20px;
-            display: block;
-            box-sizing: border-box;
-        }
-        .mpara {
-            margin-top: 50px;
-            padding-top: 40px 20px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            width: 100%;
-            height: auto;
-            position: relative;
-            display: flex;
-            min-width: 700px;
-        }
-        .mpara p {
-            position: absolute;
-            bottom: -20px;
-        }
-
-        .vel {
-            display: flex;
-            justify-content: right;
-            align-items: center;
-        }
-        .velos {
-            border: 1px solid #3a337c;
-            width: 55px;
-            height: 55px;
-            border-radius: 100%;
-            display: flex;
-            align-items: center;
-            text-align: center;
-            justify-content: center;
-        }
-        .belos {
-            color: #3a337c;
-            font-size: 30px;
-        }
-        .velos:hover {
-            background: #ebe9fb;
-        }
-        .next-step {
-            max-width: 150px;
-            margin-left: 10px;
-        }
-        .progress-bar {
-            max-width: 300px;
-            height: 4px;
-            border-radius: 50px;
-            background-color: #d8d8dd;
-            overflow: hidden;
-        }
-        .miden {
-            height: 100%;
-            background-color: #7c74c7;
-            width: 100%;
-            display: block;
-        }
-
-        @media (max-width: 576px) {
-            .staff {
-                max-width: 450px;
-            }
-            .staff h1 {
-                font-size: 40px;
-                align-items: center;
-                max-width: 400px;
-                margin-left: 20px;
-            }
-            .mpara {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                min-width: 400px;
-            }
-            .mpara p {
-                position: absolute;
-                bottom: 80px;
-                left: 60px;
-            }
-            .progress-bar {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                flex-direction: column;
-                max-width: 400px;
-            }
-
-            .vel {
-                margin-top: 80px;
-            }
-        }
-    }
-
-    .looking-for-applicants-4 {
-        margin-top: 260px;
-        margin-bottom: 360px;
-
-        .staff h1 {
-            font-size: 80px;
-            font-weight: 700;
-            max-width: 700px;
-            text-align: center;
-        }
-        .staff p {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            max-width: 700px;
-        }
-
-        .mpara {
-            margin-top: 50px;
-            padding-top: 30px;
-            display: flex;
-            align-items: center;
-            justify-content: right;
-            max-width: 700px;
-            width: 100%;
-            height: auto;
-        }
-
-        .vel {
-            display: flex;
-            justify-content: right;
-            align-items: center;
-        }
-        .velos {
-            border: 1px solid #3a337c;
-            width: 55px;
-            height: 55px;
-            border-radius: 100%;
-            display: flex;
-            align-items: center;
-            text-align: center;
-            justify-content: center;
-        }
-        .belos {
-            color: #3a337c;
-            font-size: 30px;
-        }
-        .velos:hover {
-            background: #ebe9fb;
-        }
-        .next-step {
-            max-width: 150px;
-            margin-left: 10px;
-        }
-
-        @media (max-width: 576px) {
-            .staff h1 {
-                font-size: 40px;
-                align-items: center;
-                max-width: 400px;
-                margin-left: 30px;
-            }
-
-            .col-6 {
-                min-width: 400px;
-            }
         }
     }
 }

@@ -12,9 +12,8 @@
             flex-direction: column;
             justify-content: center;
             max-width: 625px;
-           
         }
-         
+
         .form-container {
             display: flex;
             flex-direction: column;
@@ -24,29 +23,29 @@
 
         .row-name {
             display: flex;
-            gap: 35px; 
+            gap: 35px;
         }
 
         .row-name .input-wrapper {
             flex: 1;
             width: 40%;
-        
 
-           .firstname, 
-           .lastname {
-               padding-top: 0;
-            }   
+
+            .firstname,
+            .lastname {
+                padding-top: 0;
+            }
         }
-       
-       .email,
-       .message {
-           color: #3a337c;
-           font-size: 17px;
-           font-weight: 500;
-           display: flex;
+
+        .email,
+        .message {
+            color: #3a337c;
+            font-size: 17px;
+            font-weight: 500;
+            display: flex;
 
         }
-     
+
         sup {
            font-size: 17px;
            font-weight: 500;
@@ -92,55 +91,130 @@
            font-weight: 500;
         }
 
-       .primary-btn {
-           width: 100%;
-           margin-top: 25px;
+        .primary-btn {
+            width: 100%;
+            margin-top: 25px;
         }
-    }    
+    }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 992px) {
     .hforma {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        border-radius: 50px;
-        padding-inline: 25px;
-        overflow: hidden;
-        margin-bottom: 40px;
-        .leftcon {
-            margin: 0 15px;
-            padding: 0;
+
+        border-bottom-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+
+        .contact {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px;
         }
 
-        .leftcon a {
-            font-size: 16px;
-            font-weight: 400;
+        .small-title {
+            color: #3a337c;
         }
 
-        .leftcon h1 {
-            font-size: 40px;
+        .page-title {
+            min-width: 625px;
+        }
+        .page-title span {
+            color: #3a337c;
         }
 
-        .contact .leftcon p {
-            display: none;
+        .html-content{
+            max-width: 490px;
         }
+
         .form-container {
+            display: flex;
+            flex-direction: column;
+            max-width: 635px;
+        }
+
+        .row-name {
+            display: flex;
+            gap: 35px;
+        }
+
+        .row-name .input-wrapper {
+            flex: 1;
+            width: 40%;
+
+            .firstname,
+            .lastname{
+                padding-top: 0;
+                padding-left: 10px;
+                padding-bottom: 15px;
+                color: #3a337c;
+                font-size: 17px;
+                font-weight: 500;
+                display: flex;
+            }
+        }
+
+        .input-wrapper {
             width: 100%;
         }
 
-        .form-control,
-        textarea {
-            border-radius: 50px;
-            padding: 25px;
+        .email,
+        .message {
+            color: #3a337c;
+            font-size: 17px;
+            font-weight: 500;
+            display: flex;
+            text-align: start;
+            padding-left: 10px;
+            padding-block: 15px;
+        }
+        sup {
+            font-size: 17px;
+            font-weight: 500;
+            margin-top: 20px;
+        }
+
+        .form-control {
+            border-radius: 32px;
+            padding: 20px;
             color: #9898a1;
-            width: 100%;
-            max-width: 100%;
         }
 
-        button [type="submit"] {
-            margin: 20px 0;
+        .input-wrapper #message {
+            min-height: 200px;
+            border-radius: 29px;
+        }
+
+        .form-check {
+            width: 100%;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            gap: 15px;
+        }
+        .form-control::placeholder {
+            color: #9898a1;
+            font-size: 16px;
+            line-height: 17px;
+            font-weight: 500;
+        }
+
+        .form-check .form-check-input {
+            border: 1px solid #3a337c;
+            border-radius: 100%;
+            width: 20px;
+            height: 20px;
+            background-color: #e2dffe;
+        }
+
+        .form-check .form-check-label {
+            color: #3a337c;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .primary-btn {
+            width: 100%;
+            margin-top: 25px;
         }
     }
 }

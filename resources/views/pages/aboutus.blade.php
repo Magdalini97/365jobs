@@ -7,8 +7,8 @@
         <div class="container">
             <div class="paragraph">
                 <div data-aos="fade-right">
-                   <h1 class="page-title">About 365 Jobs</h1>
-                </div>   
+                    <h1 class="page-title">About 365 Jobs</h1>
+                </div>
                 <div data-aos="fade-left" class="html-content">
                     <p>Recruiting solutions: Find the right job ad for your
                         hiring needs and budget
@@ -31,8 +31,8 @@
 
     <div class="abena">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-6">
+            <div class="row">
+                <div class="col-12  col-lg-6  d-lg-flex align-items-center">
                     <div class="aboutus-content">
                         <h2 class="section-title">We connect businesses and <span>job seekers</span></h2>
                         <div class="html-content">
@@ -48,7 +48,7 @@
                     </div>
                 </div>
 
-                <div class="col-5 offset-1">
+                <div class="col-12 col-lg-5 offset-lg-1 ">
                     <div class="about">
                         <img src="/_365jobs/images/profession.png" alt="png">
                     </div>

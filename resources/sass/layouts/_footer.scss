@@ -12,7 +12,7 @@ footer {
         flex-direction: row;
         justify-content: space-between;
         max-width: 800px;
-    
+
 
         h5 {
             font-weight: 500;
@@ -38,7 +38,7 @@ footer {
             display: inline-block;
         }
     }
-      
+
     .list {
         display: flex;
         flex: 1;
@@ -74,5 +74,65 @@ footer {
             color: #717178;
         }
     }
+
+    @media (max-width: 992px) {
+
+        .job {
+            margin-top: 70px;
+        }
+
+        .footer-lists {
+            display: flex;
+            flex-direction: column;
+
+            h5 {
+                font-weight: 500;
+                font-size: 17px;
+                margin-top: 50px;
+                line-height:15px;
+                color: black;
+            }
+
+            ul{
+                margin-top:30px;
+
+
+                li  {
+                    margin: 0;
+                    padding-block:14px;
+                    display: flex;
+                    flex-direction: column;
+                    color: #717178;
+                    font-size: 15px;
+                    line-height: 15px;
+                    font-weight: 400;
+                }
+            }
+        }
+
+        .list {
+            display: flex;
+            flex-direction: column;
+        }
+        ul.icons {
+            display: flex;
+            gap: 40px;
+            margin-top: 25px;
+        }
+
+        ul li a img {
+            width: 18px;
+            height: 18px;
+        }
+        .copyright p{
+            display: none;
+        }
+        .copyright img{
+            display: block;
+            margin-top: 75px;
+        }
+    }
+
 }
+
 

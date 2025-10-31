@@ -81,26 +81,26 @@
                 margin-top: 10px;
             }
         }
-        
+
         .providelist{
             max-width: 385px;
             min-height: 255px;
             padding-block: 25px;
             margin-right: 210px;
         }
-      
+
         .providelist ul {
             list-style-type: none;
             display: flex;
             flex-direction: column;
         }
 
-        .providelist ul li {   
+        .providelist ul li {
             position: relative;
             display: flex;
             align-items: center;
             gap:25px;
-            
+
             line-height: 42px;
         }
 
@@ -313,174 +313,168 @@
             border:1px solid #7c74c7;
             color: white;
             background-color: #3a337c;
-        } 
+        }
     }
 
 
-    @media (max-width: 576px) {
+    @media (max-width: 992px) {
         .chero {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
-
-            .col {
-                display: flex;
-                align-items: center;
-                justify-content: left;
-            }
-
-            .fish h1 {
-                font-weight: 700;
-                font-size: 40px;
-                text-align: center;
-            }
-
-            .fish p {
-                font-weight: 400;
-                font-size: 17px;
-                max-width: 350px;
-                margin: 10px 35px;
-                color: #717178;
-                text-align: center;
-                display: flex;
+            margin-top: 90px;
+            position: relative;
+            .paragraph{
                 align-items: center;
                 justify-content: center;
-                gap: 10px;
+                display: flex;
             }
 
-            .bts {
+            .page-title {
+                min-width: 355px;
+                text-align: center;
+            }
+            .html-content{
+                margin-top: 15px;
+                max-width: 305px;
+                text-align: center;
+                margin-inline: auto;
+            }
+            .btns {
                 display: flex;
                 flex-direction: column;
-                align-items: center;
-                min-width: 400px;
-            }
-            .bts .em {
-                background-color: #7c74c7;
-                min-width: 400px;
-            }
+                margin-top: 45px;
+                min-width: 355px;
+                padding: 0;
 
-            .bts .can {
-                background-color: #f9f8fc;
-                color: #7c74c7;
-                border: 1px solid #7c74c7;
-                min-width: 400px;
-                margin-top: 10px;
-            }
+                .primary-btn{
+                    width: 100%;
+                    font-size: 15px;
+                    line-height: 16px;
+                    font-weight: 500;
+                    padding: 20px;
 
-            .eikonitsa {
-                position: relative;
-                border-radius: 100%;
-                background-color: #ebe9fb;
-                display: flex;
+                    &.transparent{
+                        background-color: white;
+                    }
+                }
+            }
+            .double-image {
+                margin-top: 135px;
+                margin-bottom: 50px;
                 align-items: center;
                 justify-content: center;
-                height: 355px;
-                aspect-ratio: 1/1;
-                object-fit: cover;
-                max-width: 360px;
-                margin-top: 35px;
-                padding-top: 10px;
+                display: flex;
             }
 
-            .eikonitsa img {
-                width: 100%;
-                height: 100%;
+            .span-image {
+                margin-left: 40px;
+                border-radius: 100%;
+                background-color: #ebe9fb;
+                position: relative;
+                width: 340px;
+                height: 340px;
+                padding-right: 10px;
             }
 
-            .eikonitsa .mikro {
+            .span-image img {
+                position: absolute;
+                right: 10px;
+                width: 340px;
+                height: 340px;
+                border-radius: 100%;
+            }
+
+            .span-image .small {
                 border: 1px solid #7c74c7;
                 border-radius: 100%;
                 background-color: #7c74c7;
                 position: absolute;
-                width: 56px;
-                height: 56px;
-                top: 20%;
-                left: 10%;
+                width: 34px;
+                height: 34px;
+                top: 50px;
+                left: 10px;
             }
 
-            .eikonitsa .mesaio {
+            .span-image .medium {
                 border: 1px solid #7c74c7;
                 border-radius: 100%;
                 background-color: #7c74c7;
                 position: absolute;
-                width: 92px;
-                height: 92px;
-                bottom: 100px;
-                right: 10%;
+                width: 57px;
+                height: 57px;
+                top: 280px;
+                left: 15px;
             }
+
         }
 
         .cena {
             background-color: #ebe9fb;
-            border-radius: 0 0 20px 20px;
+            border-radius: 0 0 35px 35px;
             height: auto;
             display: flex;
             flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
+            margin-top: 1150px;
 
             .row {
                 display: flex;
                 flex-direction: column;
-                margin-top: 30px;
-            }
-            .col-5 {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                text-align: left;
+
             }
 
-            .provide {
-                min-width: 400px;
-                gap: 10px;
+            .paragraph{
+                margin: 0;
+                min-width:355px;
+
+                .section-title{
+                    line-height: 32px;
+                    max-width: 290px;
+                }
+
+
+                .html-content{
+                    margin-top: 20px;
+                    min-width: 355px;
+                }
             }
 
-            .provide h3 {
-                font-size: 32px;
-                font-weight: 700;
-                max-width: 300px;
-            }
-            .provide h3 span {
-                font-size: 32px;
-                font-weight: 700;
-                color: #3a337c;
-            }
-            .provide p {
-                font-size: 17px;
-                font-weight: 400;
-                color: #717178;
-            }
-            .btns .em,
-            .btns .can {
+            .btns{
                 display: none;
             }
 
-            .btns .bt {
-                display: block;
+            .btn-list {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 50px;
+            }
+
+            .providelist{
+                max-width: 385px;
+                min-height: 255px;
+                padding-block: 25px;
+                margin-right: 210px;
             }
 
             .providelist ul {
+                list-style-type: none;
                 display: flex;
                 flex-direction: column;
-                align-items: flex-start;
-                justify-content: flex-start;
-                list-style-type: none;
-                padding-left: 0;
-
-                max-width: 400px;
             }
 
             .providelist ul li {
-                color: #717178;
+                position: relative;
+                display: flex;
+                align-items: center;
+                gap:25px;
+                line-height: 32px;
+                font-weight: 200;
+                font-size: 17px;
             }
 
             .providelist ul li::before {
                 content: ">";
                 font-size: 25px;
                 color: #3a337c;
+                position: static;
             }
         }
 
@@ -576,6 +570,10 @@
             .all {
                 max-width: 200px;
             }
+        }
+
+        .hpente{
+            margin-top: 0;
         }
     }
 }

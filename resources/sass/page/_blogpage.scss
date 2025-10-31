@@ -6,14 +6,14 @@
 
     .bhero {
         padding-top: 190px;
-          
-        .col-10{
+
+        .col-lg-10{
             display: flex;
             align-items: center;
             justify-content: space-between;
             padding-inline: 0;
         }
-     
+
         .page-title{
             max-width:450px;
         }
@@ -21,7 +21,7 @@
         .element{
             max-width:350px;
         }
-         
+
         .circle-div {
             border-radius: 100%;
             width: 335px;
@@ -37,7 +37,7 @@
             position: absolute;
         }
 
-        .circle-div .small { 
+        .circle-div .small {
             width: 38px;
             height: 38px;
             top: 230px;
@@ -61,11 +61,11 @@
 
 
     .news{
-        margin-top: 95px; 
+        margin-top: 95px;
         .htessera {
             margin-top: 0;
             .container{
-                max-width:1215px;         
+                max-width:1215px;
             }
 
             .small-title {
@@ -75,7 +75,7 @@
                text-align: center;
                 margin-top: 5px;
             }
-  
+
            .news-list{
                 display: flex;
                 flex-direction: column;
@@ -92,7 +92,7 @@
                 display: flex;
                  justify-content:space-between;
             }
- 
+
             .news-info h4 {
                 margin: 10px 0;
                 color: #3a337c;
@@ -106,14 +106,14 @@
                 margin-top: 25px;
                 padding-bottom: 65px;
             }
- 
+
             .news-info h4:hover {
                 color: #7c74c7;
             }
             .html-content p:hover {
                 color: #7c74c7;
             }
-   
+
             .click-info {
                 position: relative;
                 margin-top: 30px;
@@ -134,7 +134,7 @@
                 margin-top: 20px;
                 opacity: 0;
                 position: absolute;
-                left:40%;     
+                left:40%;
             }
 
             .circle-btn {
@@ -158,9 +158,223 @@
             }
         }
     }
-    
 
-    @media (max-width: 576px) {
+    @media (max-width: 992px){
+        padding-block: 0;
+        .bhero{
+
+            .col-12{
+                display: flex;
+                position: relative;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .page-title{
+                z-index: 1;
+                max-width: 355px;
+                //position: absolute;
+                //left: 50%;
+                //transform: translateX(-50%);
+            }
+            .element{
+               // margin-left: 150px;
+                min-width: 200px;
+                z-index: 0;
+            }
+
+            .circle-div {
+                border-radius: 100%;
+                width: 203px;
+                height: 203px;
+                background-color: #ebe9fb;
+                position: relative;
+            }
+
+            .circle-div div{
+                border: 1px solid #3a337c;
+                border-radius: 100%;
+                background-color: #3a337c;
+                position: absolute;
+            }
+
+            .circle-div .small {
+                width: 23px;
+                height: 23px;
+                top: 170px;
+                left: -60px;
+            }
+
+            .circle-div .medium {
+                width: 32px;
+                height: 32px;
+                top: 0;
+                left: 20px;
+            }
+
+            .circle-div .large {
+                width: 50px;
+                height: 50px;
+                bottom: 0;
+                left: 150px;
+            }
+        }
+
+        .news{
+            padding-top: 70px;
+            .htessera{
+                margin-block:70px;
+
+
+                .row{
+                    min-width: 355px;
+                }
+                .section-title{
+                    margin-top: 15px;
+                    text-align: center;
+                    line-height: 40px;
+                    max-width: 355px;
+                }
+
+                .news-list:nth-of-type(2){
+                    margin-top: 55px;
+                }
+
+                .news-list{
+                    display: flex;
+                    flex-direction: column;
+                    border-top: 1px solid #d8d8dd;
+                    margin-block:0;
+
+
+                    &:nth-of-type(5){
+                        border-bottom: 1px solid #d8d8dd;
+                    }
+                }
+
+                .html-content{
+                        line-height: 16px;
+                        font-size: 16px;
+                        font-weight: 400;
+                        margin-top: 15px;
+                        padding-bottom:40px;
+                }
+
+
+                .news-info{
+                    margin-top: 40px;
+
+                    h4{
+                        margin: 0;
+                        padding: 0;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 28px;
+                        color:#3A337C;
+                        max-width: 265px;
+                    }
+                }
+
+                .click-info {
+                    position: relative;
+                    margin-top: 30px;
+                    align-items: end;
+                    display: flex;
+                }
+
+                .circle-btn{
+                    min-width: 40px;
+                    height: 40px;
+                    background-color: #3A337C;
+                    aspect-ratio: 1/1;
+                    cursor: pointer;
+
+                    img{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+
+                .click-info:hover .circle-btn {
+                    opacity: 1;
+                }
+
+                .click-info:hover .circle-btn-blue,
+                .click-info:hover .circle-btn-blue img {
+                    opacity: 0;
+                }
+
+                .primary-btn,
+                .small-title,
+                .section-title{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*    @media (max-width: 576px) {
         .bhero {
             position: relative;
 
@@ -261,3 +475,4 @@
         }
     }
 }
+*/

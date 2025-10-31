@@ -11,15 +11,15 @@
                     <div data-aos="fade-left">
                         <div class="html-content">
                            <p>Our aim is to make the job market accessible to everyone,
-                               where each individual and all companies have equal access to opportunities.
-                               Let us support your hiring process in what we do best, by finding you the best match.
-                               We handle the task of searching and recruiting people for businesses,
-                               ensuring a smooth recruitment process
-                               regardless of whether you are looking for qualified candidates from different countries or
-                               you are a third country national looking for work in Greece.<br>
-                               Contact us today and find out more about our services.
+                                where each individual and all companies have equal access to opportunities.
+                                Let us support your hiring process in what we do best, by finding you the best match.
+                                We handle the task of searching and recruiting people for businesses,
+                                ensuring a smooth recruitment process
+                                regardless of whether you are looking for qualified candidates from different countries or
+                                you are a third country national looking for work in Greece.<br>
+                                Contact us today and find out more about our services.
                             </p>
-                        </div>    
+                        </div>
                     </div>
                     <div class="btns">
                         <a href="#" title="em" class="primary-btn employer">I am an employer</a>
@@ -37,7 +37,7 @@
             <div class="position">
                 <div data-aos="fade-down">
                    <a class="section-title" href="#" title="positions">Positions</a>
-                </div>   
+                </div>
                 <div class="html-content">
                     <p>Cross-country recruitment gives businesses
                         a flexible solution to fill existing labor
@@ -261,7 +261,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
-                       <a class="section-title" href="/services" title="services">Services</a>  
+                        <a class="section-title" href="/services" title="services">Services</a>
                         <div class="services">
                             <div class="bar">
                                 <button type="button" class="active one">Recruitment<br> solutions</button>
@@ -309,13 +309,13 @@
                                         <div class="large"></div>
                                     </div>
                                 </div>
-                            
+
 
                                 <div class="swiper-slide-one">
                                     <div class="text">
                                         <a class="medium-title" href="#" class="recruitment">Support in the
-                                           recruitment<br> process of
-                                           non-EU nationals
+                                            recruitment<br> process of
+                                            non-EU nationals
                                         </a>
                                         <div class="html-content">
                                             <p>Finding a job in the EU is very challenging for many non-EU citizens.
@@ -327,14 +327,14 @@
                                         </div>
                                     </div>
                                     <a href="#" class="primary-btn">View more</a>
-                                
+
 
                                     <div class="recru-image">
                                         <img src="/_365jobs/images/recru.png" alt="png">
                                         <div class="small"></div>
                                         <div class="medium"></div>
                                         <div class="large"></div>
-                                    </div>    
+                                    </div>
                                 </div>
                                 <a href="/some-link" class="d-block d-lg-none primary-btn">Our services</a>
                             </div>
@@ -354,63 +354,62 @@
                 <h2 class="section-title">Expand your HR knowledge</h2>
 
                 <a href="#" title="news-list" class="news-list">
-                        <div class="news-info">
-                            <h4>How Employees and Employers Can Thrive With a
-                                4-Day Workweek
-                            </h4> 
-                            <div class="click-info">
-                                <div class="circle-btn"><img src="/_365jobs/images/vel.png" alt="svg"></div>
-                                <div class="circle-btn-blue"><img src="/_365jobs/images/velaspro.png" alt="svg"></div> 
-                            </div> 
+                    <div class="news-info">
+                        <h4>How Employees and Employers Can Thrive With a
+                            4-Day Workweek
+                        </h4>
+                        <div class="click-info">
+                            <div class="circle-btn"><img class="d-none d-lg-block" src="/_365jobs/images/vel.png" alt="svg"><img class="d-block d-lg-none" src="/_365jobs/images/small-vel.png" alt="svg"></div>
+                            <div class="circle-btn-blue"><img src="/_365jobs/images/velaspro.png" alt="svg"></div>
                         </div>
-                        <div class="html-content"> 
-                            <p>01 Mar 2024</p>
-                        </div>
-                          
+                    </div>
+                    <div class="html-content">
+                        <p>01 Mar 2024</p>
+                    </div>
                 </a>
 
                 <a href="#" title="news-list" class="news-list">
                     <div class="news-info">
                             <h4>How Employees and Employers Can Thrive With a
                                 4-Day Workweek
-                            </h4> 
+                            </h4>
                             <div class="click-info">
-                                <div class="circle-btn"><img src="/_365jobs/images/vel.png" alt="svg"></div>
-                                 <div class="circle-btn-blue"><img src="/_365jobs/images/velaspro.png" alt="svg"></div> 
+                                <div class="circle-btn"><img class="d-none d-lg-block" src="/_365jobs/images/vel.png" alt="svg"><img class="d-block d-lg-none" src="/_365jobs/images/small-vel.png" alt="svg"></div>
+                                <div class="circle-btn-blue"><img src="/_365jobs/images/velaspro.png" alt="svg"></div>
                             </div>
                     </div>
-                    <div class="html-content"> 
+                    <div class="html-content">
                         <p>01 Mar 2024</p>
                     </div>
                 </a>
 
                 <a href="#" title="news-list" class="news-list">
-                  <div class="news-info">
-                            <h4>How Employees and Employers Can Thrive With a
-                                4-Day Workweek
-                            </h4> 
-                            <div class="click-info">
-                                <div class="circle-btn"><img src="/_365jobs/images/vel.png" alt="svg"></div>
-                                <div class="circle-btn-blue"><img src="/_365jobs/images/velaspro.png" alt="svg"></div> 
-                            </div>
-                    </div>
-                    <div class="html-content"> 
-                        <p>01 Mar 2024</p>
-                    </div>
-                </a>
-
-                <a href="#" title="news-list" class="news-list">
-            
                     <div class="news-info">
                             <h4>How Employees and Employers Can Thrive With a
                                 4-Day Workweek
-                            </h4> 
+                            </h4>
                             <div class="click-info">
-                                <div class="circle-btn"><img src="/_365jobs/images/vel.png" alt="svg"></div>
-                                <div class="circle-btn-blue"><img src="/_365jobs/images/velaspro.png" alt="svg"></div> 
-                            </div> 
+                                <div class="circle-btn"><img class="d-none d-lg-block" src="/_365jobs/images/vel.png" alt="svg"><img class="d-block d-lg-none" src="/_365jobs/images/small-vel.png" alt="svg"></div>
+                                <div class="circle-btn-blue"><img src="/_365jobs/images/velaspro.png" alt="svg"></div>
+                            </div>
                     </div>
-                    <div class="html-content"> 
+                    <div class="html-content">
+                        <p>01 Mar 2024</p>
+                    </div>
+                </a>
+
+                <a href="#" title="news-list" class="news-list">
+
+                    <div class="news-info">
+                        <h4>How Employees and Employers Can Thrive With a
+                            4-Day Workweek
+                        </h4>
+                        <div class="click-info">
+                            <div class="circle-btn"><img class="d-none d-lg-block" src="/_365jobs/images/vel.png" alt="svg"><img class="d-block d-lg-none" src="/_365jobs/images/small-vel.png" alt="svg"></div>
+                            <div class="circle-btn-blue"><img src="/_365jobs/images/velaspro.png" alt="svg"></div>
+                        </div>
+                    </div>
+                    <div class="html-content">
                         <p>01 Mar 2024</p>
                     </div>
                 </a>
@@ -440,11 +439,11 @@
 
     <div class="hforma" style="background-color: #E2DFFE;">
         <div class="container">
-            <div class="row  d-flex justify-content-lg-between">
-                <div class="col-5">
+            <div class="row  d-lg-flex justify-content-lg-between">
+                <div class="col-12 col-lg-5">
                     <div class="contact">
                         <a class="small-title" href="/contact" title="contact us">Contact us</a>
-                        <h1 class=page-title>Let’s build your team <span>together</span></h1>
+                        <h1 class=page-title>Let’s build your<br> team <span>together</span></h1>
                         <div class="html-content">
                             <p>Are you stuck and need help?
                                 Then connect with us by filling in your details
@@ -454,7 +453,7 @@
                     </div>
                 </div>
 
-                <div class="col-6">
+                <div class="col-12 col-lg-6">
                     <div class="form-container">
                         <form>
                             <div class="row-name">
@@ -480,7 +479,7 @@
                                 <textarea name="message" id="message" placeholder="Message" class="form-control"></textarea>
                             </div>
 
-                            <div class="form-check mt-3">
+                            <div class="form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                 <label class="form-check-label" for="exampleCheck1">
                                     I agree with <span style="text-decoration: underline;">Terms of Use.</span></label>

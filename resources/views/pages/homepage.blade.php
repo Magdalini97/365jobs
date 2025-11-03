@@ -6,11 +6,11 @@
             <div class="container">
                 <div class="paragraph">
                     <div data-aos="fade-right">
-                       <h1 class="page-title">Let's build your team <span>together</span></h1>
+                        <h1 class="page-title">Let's build your team <span>together</span></h1>
                     </div>
                     <div data-aos="fade-left">
                         <div class="html-content">
-                           <p>Our aim is to make the job market accessible to everyone,
+                            <p>Our aim is to make the job market accessible to everyone,
                                 where each individual and all companies have equal access to opportunities.
                                 Let us support your hiring process in what we do best, by finding you the best match.
                                 We handle the task of searching and recruiting people for businesses,
@@ -36,7 +36,7 @@
         <div class="hena">
             <div class="position">
                 <div data-aos="fade-down">
-                   <a class="section-title" href="#" title="positions">Positions</a>
+                    <a class="section-title" href="#" title="positions">Positions</a>
                 </div>
                 <div class="html-content">
                     <p>Cross-country recruitment gives businesses
@@ -299,7 +299,7 @@
                                                 candidates&#39; know-how<br> and expertise.
                                             </p>
                                         </div>
-                                        <a href="#" class="primary-btn">View more</a>
+                                        <a href="#" class="primary-btn ">View more</a>
                                     </div>
 
                                     <div class="recru-image">
@@ -327,7 +327,6 @@
                                         </div>
                                     </div>
                                     <a href="#" class="primary-btn">View more</a>
-
 
                                     <div class="recru-image">
                                         <img src="/_365jobs/images/recru.png" alt="png">

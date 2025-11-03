@@ -68,15 +68,12 @@
                 max-width:1215px;
             }
 
-            .small-title {
-                text-align: center;
-            }
+            .small-title,
             .section-title{
-               text-align: center;
-                margin-top: 5px;
+                display: none;
             }
 
-           .news-list{
+            .news-list{
                 display: flex;
                 flex-direction: column;
                 border-top: 1px solid #d8d8dd;
@@ -162,12 +159,11 @@
     @media (max-width: 992px){
         padding-block: 0;
         .bhero{
-
             .col-12{
                 display: flex;
                 position: relative;
                 align-items: center;
-                justify-content: space-between;
+                justify-content: space-evenly;
             }
 
             .page-title{
@@ -221,11 +217,7 @@
         }
 
         .news{
-            padding-top: 70px;
             .htessera{
-                margin-block:70px;
-
-
                 .row{
                     min-width: 355px;
                 }

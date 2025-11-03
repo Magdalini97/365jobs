@@ -8,25 +8,23 @@
                 <div class="col">
                     <form action="" method="POST">
                         <div class="looking-for-applicants-1">
-                                <h1 class="page-title">What Staff do you need?</h1>
+                            <h1 class="page-title">What Staff do you need?</h1>
 
-                                <div class="input-wrapper">
-                                    <div class="html-content">
-                                        <p>Search</p>
-                                    </div>    
-                                    <a href=""><img src="/_365jobs/images/downsign.png.png" alt="png"></a>
-                                </div>
-                                <div class="job-list">
-                                    <ul>
-                                        <li class="scroll-to-form"><a href="#">Fishermen <img src="/_365jobs/images/downsign.png.png" alt="png"></a></li>
-                                        <li class="scroll-to-form"><a href="#">Unskilled fishery workers<img src="/_365jobs/images/downsign.png.png" alt="png"></a></li>
-                                        <li class="scroll-to-form"><a href="#">Aquacultural workers <img src="/_365jobs/images/downsign.png.png" alt="png"></a></li>
-                                        <li class="scroll-to-form"><a href="#">Fish farming workers <img src="/_365jobs/images/downsign.png.png" alt="png"></a></li>
-                                        <li class="scroll-to-form"><a href="#">Skippers <img src="/_365jobs/images/downsign.png.png" alt="png"></a></li>
-                                        <li class="scroll-to-form"><a href="#">Shipyard workers <img src="/_365jobs/images/downsign.png.png" alt="png"></a></li>
-                                    </ul>
-                                </div>
-                         
+                            <div class="input-wrapper">
+                                <input type="search" class="search" placeholder="Search">
+                                <a href=""><img src="/_365jobs/images/downsign.png.png" alt="png"></a>
+                            </div>
+
+                            <div class="job-list">
+                                <ul>
+                                    <li class="scroll-to-form"><a href="#">Fishermen <img src="/_365jobs/images/downsign.png.png" alt="png"></a></li>
+                                    <li class="scroll-to-form"><a href="#">Unskilled fishery workers<img src="/_365jobs/images/downsign.png.png" alt="png"></a></li>
+                                    <li class="scroll-to-form"><a href="#">Aquacultural workers <img src="/_365jobs/images/downsign.png.png" alt="png"></a></li>
+                                    <li class="scroll-to-form"><a href="#">Fish farming workers <img src="/_365jobs/images/downsign.png.png" alt="png"></a></li>
+                                    <li class="scroll-to-form"><a href="#">Skippers <img src="/_365jobs/images/downsign.png.png" alt="png"></a></li>
+                                    <li class="scroll-to-form"><a href="#">Shipyard workers <img src="/_365jobs/images/downsign.png.png" alt="png"></a></li>
+                                </ul>
+                            </div>
                         </div>
 
                         <div class="looking-for-applicants-2">
@@ -53,11 +51,11 @@
                                 <div class="bar" >
                                     <div class="progress-bar">
                                         <div class="line"></div>
-                                   
-                                       <div class="html-content">
-                                          <p>Step 1 of 2</p>
-                                       </div>
-                                    </div>     
+
+                                        <div class="html-content">
+                                            <p>Step 1 of 2</p>
+                                        </div>
+                                    </div>
                                     <div class="sign">
                                         <a href="#" title="div" class="back-sign">
                                             <img src="/_365jobs/images/downsign.png.png" alt="png">
@@ -82,7 +80,7 @@
                                         <label for="email" class="email"></label>
                                         <input type="email" required name="email" id="email" placeholder="Email">
                                     </div>
-                                </div>    
+                                </div>
 
                                 <div class="form-check">
                                     <input type="checkbox" required class="form-check-input" id="exampleCheck1">
@@ -92,11 +90,11 @@
 
                                 <div class="bar" >
                                     <div class="progress-bar">
-                                       <div class="line"></div>
-                                       <div class="html-content">
-                                          <p>Step 2 of 2</p>
-                                       </div>
-                                    </div>     
+                                        <div class="line"></div>
+                                        <div class="html-content">
+                                            <p>Step 2 of 2</p>
+                                        </div>
+                                    </div>
                                     <div class="sign">
                                         <a href="#" title="div" class="back-sign">
                                             <img src="/_365jobs/images/downsign.png.png" alt="png">
@@ -115,7 +113,7 @@
                                         quam nihil ut de homine sensibus reliqui nihil oportere nimium nos amice
                                         et dolorum effugiendorum gratia ego assentior, cum teneam sententiam.
                                     </p>
-                                </div>    
+                                </div>
 
                                 <div class="mpara" style="display:none">
                                     <div class="vel">

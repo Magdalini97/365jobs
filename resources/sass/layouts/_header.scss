@@ -12,8 +12,8 @@ header {
         justify-content: space-between;
         align-items: center;
         margin: 35px 65px;
-      
-        
+
+
         a img{
             margin-top: 10px;
             max-width: 170px;
@@ -31,7 +31,7 @@ header {
         display: flex;
         gap:40px;
         margin-top: 20px;
-   
+
 
         a{
             color: black;
@@ -40,25 +40,145 @@ header {
             line-height: 15px;
             padding-inline: auto;
             margin-top: 5px;
-            
-            
+
+
         }
 
     }
 
-    .navbar #icon {
+    .navbar #icon,
+    .responsive-menu {
         display: none;
     }
 
-    // .navbar a img {
-        // display: none;
-        // position: fixed;
-        // top: 0;
-        // left: 0;
-    // }
 
     .navbar a:hover {
         border-bottom: 5px solid #7c74c7;
+    }
+
+
+
+    @media (max-width: 992px) {
+        background-color: #f9f8fc;
+        //border-bottom: 0.2px solid black;
+        .menu{
+            width: 100%;
+            margin: 35px 0;
+            display: flex;
+           // border-bottom: 1px solid pink;
+
+            a,
+            .hamburger{
+                display: block;
+            }
+
+            .hamburger{
+                background:  none;
+                border: none;
+                cursor: pointer;
+                margin-top: 35px;
+            }
+
+            #icon span {
+                display: block;
+                width: 40px;
+                border-radius: 2px;
+                border: 1px solid #3a337c;
+                margin: 8px;
+                transition: 0.4s;
+            }
+            .change .bar1 {
+                transform: translate(0, 10px) rotate(-45deg);
+            }
+            .change .bar2 {opacity: 0;}
+
+            .change .bar3 {
+                transform: translate(0, -10px) rotate(45deg);
+            }
+
+            .navbar,
+            .header-buttons,
+            .look {
+                display: none;
+            }
+            .sidebar {
+                display: block;
+            }
+
+
+            .responsive-menu{
+                left: auto;
+                right: -100px;
+                transition: right 2s ease;
+            }
+
+            .responsive-menu.open {
+                height: 100%;
+                width: 100%;
+                position: fixed;
+                z-index: 2;
+                overflow: hidden;
+                top: 100px;
+                right: 0;
+                height: calc(100% - 100px);
+                background: #f9f8fc;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+
+                a{
+                    padding: 5px 5px 5px 10px;
+                    text-decoration: none;
+                    transition: 0.3s;
+                    display: block;
+                    text-align: center;
+                    float: none;
+                    color: black;
+                    font-size: 32px;
+                    font-weight: 500;
+                }
+                a:hover{
+                    border-bottom: 5px solid #7C74C7;
+                }
+
+                .look{
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: center;
+                    flex-direction: column;
+                    overflow: hidden;
+                    margin-top: 130px;
+
+
+                    .primary-btn {
+                        min-width:355px;
+                        font-size: 15px;
+                        line-height: 16px;
+                        font-weight: 500;
+                        padding: 20px;
+                        background-color: #7c74c7;
+                        color:white;
+
+                    }
+                    .primary-btn:hover{
+                        background-color: #3a337c;
+                    }
+                    .transparent:hover{
+                        background-color: #f9f8fc;
+                    }
+
+                    .transparent{
+                        background-color: transparent;
+                        color: #7c74c7;
+                        margin-top: 10px;
+                    }
+
+                }
+
+            }
+        }
     }
 
 }

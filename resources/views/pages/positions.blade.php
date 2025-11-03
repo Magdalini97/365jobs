@@ -5,15 +5,15 @@
         <div class="container">
             <div class="position-wrapper">
                 <div data-aos="fade-down">
-                   <h1 class="page-title">Positions</h1>
-                </div>   
+                    <h1 class="page-title">Positions</h1>
+                </div>
                 <div class="html-content">
                     <p>The recruitment from third countries gives
                         the businesses a flexible solution to fulfill the existing gaps
                         in human resources. We cover positions from construction, tourism,
                         agriculture, fishing and food service sectors.
                     </p>
-                </div>    
+                </div>
             </div>
 
 
@@ -21,17 +21,17 @@
                 <div class="col-4">
                     <a href="#" title="grid-item" class="item grid-item">
                         <div class="items">
-                           <span class="logo-image"><img src="/_365jobs/images/fishing-rod.svg" alt="logo"></span>
-                          <h5>Fishing</h5>
-                          <ul>
-                               <li>Fishermen</li>
-                               <li>Unskilled fishery workers</li>
-                               <li>Aquacultural workers</li>
-                               <li>Fish farming workers</li>
-                               <li>Skippers </li>
-                               <li>Shipyard workers</li>
+                            <span class="logo-image"><img src="/_365jobs/images/fishing-rod.svg" alt="logo"></span>
+                            <h5>Fishing</h5>
+                            <ul>
+                                <li>Fishermen</li>
+                                <li>Unskilled fishery workers</li>
+                                <li>Aquacultural workers</li>
+                                <li>Fish farming workers</li>
+                                <li>Skippers </li>
+                                <li>Shipyard workers</li>
                             </ul>
-                        </div>    
+                        </div>
                     </a>
                 </div>
 
@@ -61,7 +61,7 @@
                                 <li>Carpenters</li>
                                 <li>Woodworkers</li>
                             </ul>
-                        </div>    
+                        </div>
                     </a>
                 </div>
 
@@ -73,17 +73,17 @@
                             <span class="logo-image"><img src="/_365jobs/images/granazi.svg" alt="logo"></span>
                             <h5>Tourism</h5>
                             <ul>
-                               <li>Building supervisors</li>
-                               <li>Maids and cleaners</li>
-                               <li>Gardeners</li>
-                               <li>Chefs</li>
-                               <li>Animators and entertainers</li>
-                               <li>Pool maintenance </li>
-                               <li>Airport service baggage workers</li>
-                               <li>Porters</li>
-                               <li>Ship crew</li>
+                                <li>Building supervisors</li>
+                                <li>Maids and cleaners</li>
+                                <li>Gardeners</li>
+                                <li>Chefs</li>
+                                <li>Animators and entertainers</li>
+                                <li>Pool maintenance </li>
+                                <li>Airport service baggage workers</li>
+                                <li>Porters</li>
+                                <li>Ship crew</li>
                             </ul>
-                        </div>    
+                        </div>
                     </a>
                 </div>
 
@@ -103,7 +103,7 @@
                                 <li>Dairy workers </li>
                                 <li>Packaging workers </li>
                             </ul>
-                        </div>    
+                        </div>
                     </a>
                 </div>
 
@@ -121,7 +121,7 @@
                                 <li>Warehouse workers</li>
                                 <li>Logistic officers</li>
                             </ul>
-                        </div>    
+                        </div>
                     </a>
                 </div>
 
@@ -135,7 +135,7 @@
                                 <li>Kitchen assistants, dishwashers</li>
                                 <li>Chefs</li>
                             </ul>
-                        </div>    
+                        </div>
                     </a>
                 </div>
             </div>

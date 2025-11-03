@@ -1,31 +1,30 @@
 .servicesblade{
-
     .shero {
         position: relative;
         overflow: hidden;
         padding-bottom: 235px;
 
-       .html-content{
+        .html-content{
             margin-top:20px;
         }
 
         .btns {
-          padding-top:40px;
+            padding-top:40px;
         }
 
-       .background {
-           display: block;
-           position: absolute;
-           left: 33%;
-           top: -130%;
-           right: -48%;
-           z-index: -1;
+        .background {
+            display: block;
+            position: absolute;
+            left: 40%;
+            top: -140%;
+            right: -35%;
+            z-index: -1;
         }
 
-       .background img {
-           flex: 1;
-           width: 100%;
-           height: auto;
+        .background img {
+            flex: 1;
+            width: 100%;
+            height: auto;
         }
 
     }
@@ -48,7 +47,7 @@
         }
 
         .html-content{
-           max-width: 715px;
+            max-width: 715px;
         }
 
         .selection{
@@ -115,11 +114,11 @@
         }
 
         .small {
-           position: absolute;
-           width: 53px;
-           height: 53px;
-           top: 450px;
-           left: 0px;
+            position: absolute;
+            width: 53px;
+            height: 53px;
+            top: 450px;
+            left: 0px;
         }
         .medium {
             position: absolute;
@@ -129,34 +128,34 @@
             left: 60px;
         }
         .large {
-           position: absolute;
-           width: 115px;
-           height: 115px;
-           bottom: 20px;
-           right: 50px;
+            position: absolute;
+            width: 115px;
+            height: 115px;
+            bottom: 20px;
+            right: 50px;
         }
 
     }
 
     .stria{
-       border-bottom-right-radius: 50px;
-       border-bottom-left-radius: 50px;
-       padding-top: 125px;
-       padding-bottom: 130px;
-       background-color: white;
+        border-bottom-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        padding-top: 125px;
+        padding-bottom: 130px;
+        background-color: white;
 
         .solutions-image {
-           position: relative;
-           display: flex;
+            position: relative;
+            display: flex;
         }
         .solutions-image img {
-           position: relative;
-           width: 100%;
-           max-width: 465px;
-           height: auto;
-           aspect-ratio: 1/1;
-           border-radius: 100%;
-           object-fit: cover;
+            position: relative;
+            width: 100%;
+            max-width: 465px;
+            height: auto;
+            aspect-ratio: 1/1;
+            border-radius: 100%;
+            object-fit: cover;
         }
         .small,
         .medium,
@@ -166,34 +165,34 @@
         }
 
         .small {
-           position: absolute;
-           width: 53px;
-           height: 53px;
-           top: 450px;
-           left: 0px;
+            position: absolute;
+            width: 53px;
+            height: 53px;
+            top: 450px;
+            left: 0px;
         }
         .medium {
             position: absolute;
             width: 71px;
-           height: 71px;
-           top: 15px;
+            height: 71px;
+            top: 15px;
             left: 60px;
         }
         .large {
-           position: absolute;
-           width: 115px;
-           height: 115px;
-           bottom: 20px;
-           right: 50px;
+            position: absolute;
+            width: 115px;
+            height: 115px;
+            bottom: 20px;
+            right: 50px;
         }
 
 
         .recru-solutions{
-           display: flex;
-           flex-direction: column;
-           justify-content: space-between;
-           margin-top: 50px;
-           min-width: 605px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-top: 50px;
+            min-width: 605px;
 
             .services-section-title {
                 font-weight: 700;
@@ -210,8 +209,8 @@
 
     }
 
-
     .hpente {
+        padding-top: 0;
         .col {
             padding-block: 185px;
             background-color: #3a337c;
@@ -224,29 +223,29 @@
         }
 
         .section-title {
-           color: white;
-           margin: 0;
-           padding: 0;
+            color: white;
+            margin: 0;
+            padding: 0;
         }
 
-       .html-content p{
-           color: white;
-           margin-top:15px;
-           text-align: center;
+        .html-content p{
+            color: white;
+            margin-top:15px;
+            text-align: center;
         }
 
         .primary-btn{
-           min-width: 220px;
-           background:white;
-           color: #3a337c;
-           margin-top: 35px;
-           margin-inline:auto;
+            min-width: 220px;
+            background:white;
+            color: #3a337c;
+            margin-top: 35px;
+            margin-inline:auto;
 
         }
         .primary-btn:hover{
-           border:1px solid #7c74c7;
-           color: white;
-           background-color: #3a337c;
+            border:1px solid #7c74c7;
+            color: white;
+            background-color: #3a337c;
         }
     }
 
@@ -307,6 +306,9 @@
         .sena {
             padding-block: 0;
             margin-top: 110px;
+            border: 1px solid #f9f8fc;
+
+
             .services-info{
                 display: flex;
                 flex-direction: column;
@@ -320,6 +322,7 @@
             .html-content{
                 margin-top: 30px;
                 min-width: 355px;
+                max-width: 400px;
             }
             .selection{
                 display: flex;
@@ -336,29 +339,14 @@
             }
             .selection a{
                 font-size:17px;
-                font-weight: 600;
-                line-height: 17px;
             }
-
         }
 
-        .sdio .container{
+        .sdio{
             background-color: #EBE9FB;
             border-radius: 50px;
-            padding-block: 0;
+            z-index: -1;
 
-            .col-12{
-                margin-top:90px;
-                border:1px  solid red;
-                max-width: 300px;
-            }
-
-            .recru-solutions{
-                display: flex;
-                align-items: center;
-                justify-content: center;
-
-            }
 
             .services-section-title{
                 font-size: 24px;
@@ -370,43 +358,97 @@
 
             }
 
+            .recru-solutions{
+                margin-inline:auto;
+            }
+
             .html-content{
                 max-width: 300px;
+            }
+
+            .solutions-image {
+                max-width: 300px;
+                margin-inline:auto;
+                margin-top: 35px;
+
+                div {
+                    background-color: #7C74C7;
+                }
+                .small {
+                    width: 35px;
+                    height: 35px;
+                    top: 280px;
+                    left: 15px;
+                }
+                .medium {
+                    width: 46px;
+                    height: 46px;
+                    top: 0;
+                    left: 45px;
+                }
+                .large {
+                    width: 75px;
+                    height: 75px;
+                    bottom: 0;
+                    right: 15px;
+                }
+
             }
 
         }
 
         .stria {
-
-            //padding-block: 110px;
-
-            .col-12{
-                display:flex ;
-                justify-content: center;
-                max-width: 300px;
-            }
-
+            padding-top: 75px;
+            padding-bottom: 0;
             .recru-solutions{
-                display: flex;
-                align-items: center;
-                justify-content: center;
+                max-width: 305px;
+                min-width: 300px;
+                margin-inline:auto ;
 
+                .services-section-title{
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 32px;
+                    color: #3A337C;
+                    max-width: 300px;
+                }
+                .html-content{
+                    max-width: 300px;
+                }
             }
 
-            .services-section-title{
-                font-size: 24px;
-                font-weight: 700;
-                line-height: 32px;
-                color: #3A337C;
+            .solutions-image {
                 max-width: 300px;
-                margin-right: 35px;
+                margin-inline:auto;
+                margin-top: 35px;
+
+                div {
+                    background-color: #3A337C;
+                }
+                .small {
+                    width: 35px;
+                    height: 35px;
+                    top: 280px;
+                    left: 15px;
+                }
+                .medium {
+                    width: 46px;
+                    height: 46px;
+                    top: 0;
+                    left: 45px;
+                }
+                .large {
+                    width: 75px;
+                    height: 75px;
+                    bottom: 0;
+                    right: 15px;
+                }
 
             }
+        }
 
-            .html-content{
-                max-width: 300px;
-            }
-
+        .hpente{
+            padding-top: 70px;
         }
 
     }

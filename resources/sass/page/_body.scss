@@ -41,12 +41,11 @@ span {
 }
 
 .html-content {
-    p {
-        font-size: 17px;
-        line-height: 27px;
-        color: #717178;
-        font-weight: 400;
-    }
+
+    font-size: 17px;
+    line-height: 27px;
+    color: #717178;
+    font-weight: 400;
 }
 
 .small-title {
@@ -275,7 +274,7 @@ span {
         pointer-events: none;
     }
     .primary-btn {
-        margin-top: 565px;
+        margin-top: 65px;
         min-width: 205px;
         margin-inline:auto;
     }
@@ -613,6 +612,7 @@ span {
         color: white;
         margin: 0;
         padding: 0;
+        line-height: 40px;
     }
 
     .html-content p{
@@ -727,6 +727,7 @@ span {
         justify-content: left;
         align-items: center;
         gap: 15px;
+        margin-top: 20px;
     }
     .form-control::placeholder {
         color: #9898a1;

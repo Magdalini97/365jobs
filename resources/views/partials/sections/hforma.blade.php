@@ -1,22 +1,22 @@
     <div class="hforma" style="background-color: #E2DFFE;">
         <div class="container">
-            <div class="row  d-flex  justify-content-lg-between">
-                <div class="col-5">
+            <div class="row  d-lg-flex  justify-content-lg-between">
+                <div class="col-12 col-lg-5">
                     <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                         <div class="contact">
-                           <a class="small-title" href="/contact" title="contact us">Contact us</a>
-                           <h1 class=page-title>Let’s build your team <span>together</span></h1>
-                           <div class="html-content">
-                               <p>Are you stuck and need help?
-                                   Then connect with us by filling in your details
-                                   and we at 365jobs will do our best to support you as soon as possible.
-                               </p>
+                            <a class="small-title" href="/contact" title="contact us">Contact us</a>
+                            <h1 class=page-title>Let’s build your team <span>together</span></h1>
+                            <div class="html-content">
+                                <p>Are you stuck and need help?
+                                    Then connect with us by filling in your details
+                                    and we at 365jobs will do our best to support you as soon as possible.
+                                </p>
                             </div>
-                        </div>    
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-6">
+                <div class="col-12 col-lg-6">
                     <div class="form-container">
                         <form>
                             <div class="row-name">

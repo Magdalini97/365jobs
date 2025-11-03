@@ -73,12 +73,10 @@
             </div>
         </div>
 
-
-
         <div class="stria">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-lg-4 offset-lg-1 d-flex align-items-center">
+                    <div class="col-12 col-lg-4 offset-lg-1 d-flex align-items-center order-2 order-lg-1">
                         <div class="solutions-image">
                             <img src="/_365jobs/images/recru.png" alt="foto">
                             <div class="small"></div>
@@ -87,7 +85,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12 col-lg-4 offset-lg-1">
+                    <div class="col-12 col-lg-4 offset-lg-1 order-1 order-lg-2">
                         <div class="recru-solutions">
                             <h3 class="services-section-title">Support in the recruitment process of non-EU nationals</h3>
                             <div class="html-content">

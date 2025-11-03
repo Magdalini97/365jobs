@@ -75,23 +75,16 @@ document.querySelectorAll(".bar button").forEach((btn) => {
 });
 
 
-document.querySelector("#icon").addEventListener("click", toggleNav);
-function toggleNav() {
-    var x = document.getElementById("myNavbar");
-    x.classList.toggle("responsive");
-}
-
-
-
 
 const grid = document.querySelector(".row");
-  if (grid) {
-    new Masonry(grid, {
-      itemSelector: ".col-4",
-      percentPosition: true,
-      gutter: 40
-    });
-  }
+const breakpoint= 992;
+    if (grid && window.innerWidth > breakpoint) {
+        new Masonry(grid, {
+            itemSelector: ".col-4",
+            percentPosition: true,
+            gutter: 40
+        });
+    }
 
 /*document.querySelectorAll('.scroll-to-form').forEach((item) => {
     item.addEventListener("click", (e) => {

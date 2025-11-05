@@ -3,9 +3,9 @@
         <a class="section-title" href="#" title="positions">Other Categories</a>
         <div class="html-content">
             <p>The recruitment from third countries gives the businesses
-              a flexible solution to fulfill the existing gaps in human resources.
-              We cover positions from construction, tourism, agriculture,
-              fishing and food service sectors. 
+                a flexible solution to fulfill the existing gaps in human resources.
+                We cover positions from construction, tourism, agriculture,
+                fishing and food service sectors.
             </p>
         </div>
     </div>

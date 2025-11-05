@@ -88,7 +88,10 @@
         margin-top: 90px;
         position: relative;
         overflow: hidden;
-        padding-bottom: 50px;
+        padding-block: 55px;
+        .paragraph{
+            margin-top:90px;
+        }
 
         .page-title {
             max-width: 355px;
@@ -105,6 +108,8 @@
 
             .primary-btn{
                 width: 100%;
+                max-width: 440px;
+                margin-inline: auto;
                 font-size: 15px;
                 line-height: 16px;
                 font-weight: 500;
@@ -118,8 +123,8 @@
 
         .background {
             position: absolute;
-            top: 10%;
-            left: 10%;
+            top:50px;
+            left:60px;
             z-index: -1;
             width: 100%;
         }
@@ -203,7 +208,7 @@
             font-weight: 600;
         }
         .primary-btn{
-            margin-top: 35px;
+            margin-top: 0;
         }
     }
 
@@ -253,7 +258,6 @@
         margin-top: 70px;
         max-width: 355px;
         margin-inline:auto;
-        border: 1px solid blue;
 
         .services,
         .svg,
@@ -276,12 +280,12 @@
                 max-width: 300px;
             }
 
-            .swiper-slide-one{
+            /*.swiper-slide-one{
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 margin-top: 80px;
-            }
+            }*/
 
             .html-content{
                 margin-top: 15px;
@@ -334,14 +338,12 @@
             }
         }
 
-        .swiper-slide-one {
+        /*.swiper-slide-one {
             .recru-image div{
                 background-color: #3A337C;
             }
 
-
-
-        }
+        }*/
 
         .primary-btn{
             margin-top: 60px;

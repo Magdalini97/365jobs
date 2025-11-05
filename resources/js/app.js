@@ -1,5 +1,5 @@
 import Swiper from "swiper";
-import { Navigation} from "swiper/modules";
+import {Navigation} from "swiper/modules";
 import "swiper/css";
 import Masonry from "masonry-layout";
 import AOS from "aos";
@@ -41,39 +41,30 @@ if (window.innerWidth >= DESKTOP_MIN) {
         spaceBetween: 0,
 
         navigation: {
-            nextEl: ".right-sign",
-            prevEl: ".left-sign",
+            nextEl: ".left-sign",
+            prevEl: ".right-sign",
         },
     });
-    /*servicesSwiper = new Swiper(".services-swiper", {
-        modules: [Navigation],
-        slidesPerView: 1,
-        spaceBetween: 0,
-
-        navigation: {
-            nextEl: ".right-sign",
-            prevEl: ".left-sign",
-        },
-    });*/
 
     document.querySelector(".bar .one").addEventListener("click", () => {
         servicesSwiper.slideTo(0);
     });
 
-    document.querySelector(".bar  .two").addEventListener("click", () => {
+    document.querySelector(".bar .two").addEventListener("click", () => {
         servicesSwiper.slideTo(1);
     });
+
+    const initialBtn=document.querySelector(".bar .one");
+        initialBtn.classList.add("active");
+        document.querySelectorAll(".bar button").forEach((btn) => {
+
+            btn.addEventListener("click", () => {
+                document.querySelectorAll(".bar button").forEach((b) =>
+                b.classList.remove("active"));
+                btn.classList.add("active");
+            });
+        });
 }
-
-document.querySelectorAll(".bar button").forEach((btn) => {
-    btn.addEventListener("click", () => {
-        document
-            .querySelectorAll(".bar button")
-            .forEach((b) => b.classList.remove("active"));
-            btn.classList.add("active");
-    });
-});
-
 
 
 const grid = document.querySelector(".row");

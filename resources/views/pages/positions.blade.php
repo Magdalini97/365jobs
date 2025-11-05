@@ -95,7 +95,8 @@
                             <span class="logo-image"><img src="/_365jobs/images/planting.svg" alt="logo"></span>
                             <h5>Agricultural sector </h5>
                             <ul>
-                                <li>Unskilled agricultural, livestock and forestry workers </li>
+                                <li>Unskilled agricultural, livestock</li>
+                                <li>Forestry workers</li>
                                 <li>Greenhouse workers </li>
                                 <li>Farm workers</li>
                                 <li>Foresters, loggers</li>

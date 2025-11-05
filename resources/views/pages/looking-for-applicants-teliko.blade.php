@@ -115,6 +115,12 @@
                                     </p>
                                 </div>
 
+                                <div class="design-circle">
+                                    <div class="small"></div>
+                                    <div class="medium"></div>
+                                    <div class="large"></div>
+                                </div>
+
                                 <div class="mpara" style="display:none">
                                     <div class="vel">
                                         <a href="#" title="div" class="velos">
@@ -155,9 +161,7 @@
 
         document.querySelectorAll(".next-step").forEach((btn) => {
             btn.addEventListener("click", () => {
-
                 const currentStep = (current === 0) ? step1 : steps[current - 1];
-
                 const inputs = currentStep.querySelectorAll("input[required]");
                 for (let input of inputs) {
                     if (!input.checkValidity()) {
@@ -182,7 +186,6 @@
             });
         });
 
-
         document.querySelectorAll('.back-sign').forEach(backBtn => {
             backBtn.addEventListener('click', (e) => {
                 e.preventDefault();
@@ -200,5 +203,4 @@
             });
         });
     });
-
 </script>

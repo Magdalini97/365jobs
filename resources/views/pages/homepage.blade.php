@@ -164,7 +164,6 @@
                                     </a>
                                 </div>
 
-
                                 <a href="#" title="hoverli" class="hoverli">
                                     <ul>
                                         <li><img src="/_365jobs/images/Line 5 Copy 7.png" alt="png">Fishermen</li>
@@ -257,15 +256,14 @@
 
 
         <div class="htria">
-
             <div class="container">
                 <div class="row">
                     <div class="col">
                         <a class="section-title" href="/services" title="services">Services</a>
                         <div class="services">
                             <div class="bar">
-                                <button type="button" class="active one">Recruitment<br> solutions</button>
-                                <button type="button" class="active two">Support in the recruitment<br> process of non-EU
+                                <button type="button" class="one active">Recruitment<br> solutions</button>
+                                <button type="button" class="two">Support in the recruitment<br> process of non-EU
                                     nationals</button>
                             </div>
 
@@ -283,9 +281,8 @@
                     </div>
                 </div>
 
-
                 <div class="row">
-                    <div class="col-12 col-lg-10 offset-1">
+                    <div class="col-12 col-lg-10 offset-lg-1">
                         <div class="services-swiper swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
@@ -299,7 +296,7 @@
                                                 candidates&#39; know-how<br> and expertise.
                                             </p>
                                         </div>
-                                        <a href="#" class="primary-btn ">View more</a>
+                                        <a href="#" class="primary-btn">View more</a>
                                     </div>
 
                                     <div class="recru-image">
@@ -311,7 +308,7 @@
                                 </div>
 
 
-                                <div class="swiper-slide-one">
+                                <div class="swiper-slide">
                                     <div class="text">
                                         <a class="medium-title" href="#" class="recruitment">Support in the
                                             recruitment<br> process of
@@ -325,8 +322,9 @@
                                                 obtain the necessary permit and businesses to place the candidates.
                                             </p>
                                         </div>
+                                        <a href="#" class="primary-btn">View more</a>
                                     </div>
-                                    <a href="#" class="primary-btn">View more</a>
+
 
                                     <div class="recru-image">
                                         <img src="/_365jobs/images/recru.png" alt="png">
@@ -493,3 +491,5 @@
 
     </div>
 @endsection
+
+

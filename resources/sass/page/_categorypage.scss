@@ -3,9 +3,6 @@
     .chero {
         background-color: #F9F8FC;
 
-        .paragraph {
-            margin-top: 90px;
-        }
         .html-content{
             margin-top: 20px;
         }
@@ -14,7 +11,7 @@
         }
 
         .double-image {
-            margin-top: 135px;
+            margin-top: 125px;
             margin-bottom: 50px;
         }
 
@@ -83,10 +80,11 @@
         }
 
         .providelist{
+            display: flex;
             max-width: 385px;
             min-height: 255px;
             padding-block: 25px;
-            margin-right: 210px;
+            margin-left: 70px;
         }
 
         .providelist ul {
@@ -157,20 +155,21 @@
         }
 
         .overlay {
-           position: absolute;
-           top: 0;
-           left: 0;
-           width: 100%;
-           height: 100%;
-           background: #1f1b40;
-           opacity: 23.68%;
-           border-radius: 20px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #1f1b40;
+            opacity: 23.68%;
+            border-radius: 20px;
         }
 
         .hoverli:hover {
-           opacity: 1;
-           border-radius: 20px;
+            opacity: 1;
+            border-radius: 20px;
         }
+
 
         .card img:hover,
         .granazi:hover {
@@ -191,23 +190,23 @@
             right: 20px;
         }
         .granazi img {
-           width: 34.5px;
-           height: 34px;
+            width: 34.5px;
+            height: 34px;
         }
 
-       .hoverli {
-           position: absolute;
-           top: 0;
-           left: 0;
-           width: 100%;
-           min-height: 458px;
-           opacity: 0;
-           transition: opacity 0.5s ease;
-           display: flex;
-           flex-direction: column;
-           text-align: justify;
-           border-radius: 20px;
-           background-color: #ebe9fb;
+        .hoverli {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            min-height: 478px;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+            display: flex;
+            flex-direction: column;
+            text-align: justify;
+            border-radius: 20px;
+            background-color: #ebe9fb;
         }
 
         .slide-label p {
@@ -229,40 +228,41 @@
         }
 
         .hoverli ul li {
-           display: inline-flex;
-           flex-direction: row;
-           margin: 5px 0;
-           gap:25px;
-           font-size: 17px;
-           font-weight: 300;
-           color: #3a337c;
+            display: inline-flex;
+            flex-direction: row;
+            margin: 5px 0;
+            gap:25px;
+            font-size: 17px;
+            font-weight: 300;
+            color: #3a337c;
         }
 
         .hoverli ul li img {
-           width: 100%;
-           max-width: 6.85px;
-           max-height: 10px;
-           margin: 10px 0;
+            width: 100%;
+            max-width: 6.85px;
+            max-height: 10px;
+            margin: 10px 0;
         }
 
         .viewall a {
-           padding: 30px;
-           font-size: 18px;
-           color: #3a337c;
-           text-decoration-line: underline;
-           text-decoration-color: #3a337c;
-           text-underline-offset: 4px;
-           position: absolute;
-           top:330px;
-           left: 5px;
-           opacity: 0;
-           pointer-events: none;
+            padding: 30px;
+            font-size: 18px;
+            color: #3a337c;
+            text-decoration-line: underline;
+            text-decoration-color: #3a337c;
+            text-underline-offset: 4px;
+            position: absolute;
+            top:330px;
+            left: 5px;
+            opacity: 0;
+            pointer-events: none;
         }
 
         .hoverli:hover ~ .viewall {
-           opacity: 1;
-           transition: opacity 0.5s ease;
+            opacity: 1;
+            transition: opacity 0.5s ease;
         }
+
 
         .hoverli:hover ~ .viewall a {
             transition: opacity 0.5s ease;
@@ -277,7 +277,7 @@
     }
 
     .hpente {
-        margin-top: 150px;
+        margin-top: 0;
         .col {
             padding-block: 185px;
             background-color: #3a337c;
@@ -302,11 +302,11 @@
         }
 
         .primary-btn{
-           min-width: 220px;
-           background:white;
-           color: #3a337c;
-           margin-top: 35px;
-           margin-inline:auto;
+            min-width: 220px;
+            background:white;
+            color: #3a337c;
+            margin-top: 35px;
+            margin-inline:auto;
 
         }
         .primary-btn:hover{
@@ -332,7 +332,7 @@
                 text-align: center;
             }
             .html-content{
-                margin-top: 15px;
+                margin-top: 5px;
                 max-width: 305px;
                 text-align: center;
                 margin-inline: auto;
@@ -340,7 +340,7 @@
             .btns {
                 display: flex;
                 flex-direction: column;
-                margin-top: 45px;
+                margin-top: 35px;
                 min-width: 355px;
                 padding: 0;
 
@@ -411,7 +411,7 @@
             height: auto;
             display: flex;
             flex-direction: column;
-            margin-top: 50px;
+            padding-block: 85px;
 
             .row {
                 display: flex;
@@ -431,10 +431,10 @@
 
                 .html-content{
                     margin-top: 20px;
-                    min-width: 355px;
+                    min-width: 330px;
+                    max-width: 355px;
                 }
             }
-
             .btns{
                 display: none;
             }
@@ -482,14 +482,13 @@
                 font-size: 32px;
                 font-weight: 700;
             }
-            .position p {
-                padding: 10px;
-                display: flex;
+            .position {
+                margin-top: 70px;
                 text-align: center;
-                justify-content: center;
-                max-width: 380px;
-                text-align: center;
+                margin-inline:auto ;
+                max-width: 355px;
             }
+
             .positions-swiper {
                 overflow: visible;
             }
@@ -560,14 +559,8 @@
                 font-size: 24px;
                 font-weight: 600;
             }
-            .b-all {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin-top: 20px;
-            }
-            .all {
-                max-width: 200px;
+            .primary-btn{
+                margin-top: 35px;
             }
         }
 

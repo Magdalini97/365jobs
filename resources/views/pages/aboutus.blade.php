@@ -32,7 +32,7 @@
     <div class="abena">
         <div class="container">
             <div class="row">
-                <div class="col-12  col-lg-6  d-lg-flex align-items-center">
+                <div class="col-12  col-lg-6  order-2 order-lg-1 d-lg-flex align-items-center">
                     <div class="aboutus-content">
                         <h2 class="section-title">We connect businesses and <span>job seekers</span></h2>
                         <div class="html-content">
@@ -48,7 +48,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-lg-5 offset-lg-1 ">
+                <div class="col-12 col-lg-5 order-1 order-lg-2 offset-lg-1 ">
                     <div class="about">
                         <img src="/_365jobs/images/profession.png" alt="png">
                     </div>
